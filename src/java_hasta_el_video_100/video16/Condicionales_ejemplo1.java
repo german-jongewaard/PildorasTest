@@ -1,7 +1,10 @@
 package java_hasta_el_video_100.video16;
 
 import java.util.*;
-
+/**
+ *
+ * @author German
+ */
 public class Condicionales_ejemplo1 {
 
     
@@ -19,10 +22,5 @@ public class Condicionales_ejemplo1 {
           }else{
             System.out.println("Ohhh eres un jovenzuelo!");
         }
-        
-        
-        
-        
-    }
-    
+    }    
 }
