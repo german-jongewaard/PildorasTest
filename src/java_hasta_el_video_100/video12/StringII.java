@@ -6,9 +6,6 @@ package java_hasta_el_video_100.video12;
  */
 public class StringII {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
       
         String frase = "Hoy es un estupendo día para aprender a programar en Java";

@@ -1,5 +1,4 @@
 package java_hasta_el_video_100.video12_1;
-
 /**
  *
  * @author German

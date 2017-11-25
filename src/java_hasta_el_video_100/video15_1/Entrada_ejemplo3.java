@@ -1,10 +1,11 @@
- 
 package java_hasta_el_video_100.video15_1;
 
 import javax.swing.*;
-
+/**
+ *
+ * @author German
+ */
 public class Entrada_ejemplo3 {
-
     
     public static void main(String[] args) {
        

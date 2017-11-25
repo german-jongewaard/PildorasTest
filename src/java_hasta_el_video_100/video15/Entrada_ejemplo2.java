@@ -1,9 +1,11 @@
 package java_hasta_el_video_100.video15;
 
- import javax.swing.*;
-
+import javax.swing.*;
+/**
+ *
+ * @author German
+ */
 public class Entrada_ejemplo2 {
-
      
     public static void main(String[] args) {
         

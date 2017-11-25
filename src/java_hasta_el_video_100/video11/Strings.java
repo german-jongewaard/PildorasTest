@@ -5,7 +5,6 @@ package java_hasta_el_video_100.video11;
  * @author German
  */
 public class Strings {
-
      
     public static void main(String[] args) {
         String nombre = "German Jongewaard";
