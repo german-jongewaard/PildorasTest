@@ -1,6 +1,7 @@
 package java_hasta_el_video_100.video15;
 
  import javax.swing.*;
+
 public class Entrada_ejemplo2 {
 
      
