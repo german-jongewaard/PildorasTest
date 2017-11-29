@@ -1,10 +1,11 @@
 package java_hasta_el_video_100.video16;
-
-import java.util.*;
 /**
  *
  * @author German
+ * 
  */
+import java.util.*;
+ 
 public class Condicionales_ejemplo1 {
 
     

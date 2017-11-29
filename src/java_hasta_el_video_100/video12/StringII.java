@@ -3,6 +3,7 @@ package java_hasta_el_video_100.video12;
 /**
  *
  * @author German
+ * 
  */
 public class StringII {
 
