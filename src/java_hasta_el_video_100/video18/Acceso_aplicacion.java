@@ -1,12 +1,11 @@
 package java_hasta_el_video_100.video18;
 /**
  *
- * @author German
+ * @author Germán
  * 
  */
 import java.util.*;
-import javax.swing.JOptionPane;
-
+import javax.swing.JOptionPane; 
  
 public class Acceso_aplicacion {
 
