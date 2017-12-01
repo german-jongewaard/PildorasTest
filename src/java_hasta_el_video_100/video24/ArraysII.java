@@ -7,13 +7,10 @@ package java_hasta_el_video_100.video24;
 import javax.swing.*;
 
 public class ArraysII {
-
     
-    public static void main(String[] args) {
-       
+    public static void main(String[] args) {       
                 
-        String [] paises = new String[8];
-        
+        String [] paises = new String[8];        
         
         for(int i=0; i<8;i++){
             
@@ -42,6 +39,5 @@ public class ArraysII {
         for(String elemento:paises){
              System.out.println("País: " + elemento);    
         }
-    }
-    
+    }    
 }
