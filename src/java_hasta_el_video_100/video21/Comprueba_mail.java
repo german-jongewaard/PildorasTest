@@ -23,8 +23,7 @@ public class Comprueba_mail {
                 arroba++;
             }
             if(mail.charAt(i)=='.'){
-                punto=true;
-            
+                punto=true;            
             }            
         }
         
