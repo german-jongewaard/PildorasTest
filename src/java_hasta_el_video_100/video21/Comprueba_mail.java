@@ -7,7 +7,6 @@ package java_hasta_el_video_100.video21;
 import javax.swing.JOptionPane;
 
 public class Comprueba_mail {
-
     
     public static void main(String[] args) {
         
@@ -32,10 +31,5 @@ public class Comprueba_mail {
         }else{
             System.out.println("No es correcto");
         }
-        
-        
-        
-        
-    }
-    
+    }    
 }
