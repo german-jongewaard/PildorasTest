@@ -80,16 +80,12 @@ class Empleado{
         return nombre;        
     }
     
-    public double dameSueldo(){//Método GETTER
-        
-        return sueldo;
-        
+    public double dameSueldo(){//Método GETTER        
+        return sueldo;        
     }
     
-    public Date dameFechaContrato(){//Método GETTER
-        
-        return altaContrato;
-        
+    public Date dameFechaContrato(){//Método GETTER        
+        return altaContrato;        
     }
     
     public void subeSueldo(double porcentaje){
