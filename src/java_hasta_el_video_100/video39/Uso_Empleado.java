@@ -7,7 +7,7 @@ import java.util.*;
 public class Uso_Empleado {
  
     public static void main(String[] args) {
-        
+       /*
         Empleado empleado1 = new Empleado("Paco Gómez", 85000, 1990, 12, 17);
         
         Empleado empleado2 = new Empleado("Ana López", 95000, 1995, 6, 02);
@@ -29,7 +29,7 @@ public class Uso_Empleado {
         System.out.println("Nombre: " + empleado3.dameNombre() + 
                 " Sueldo: " + empleado3.dameSueldo() + " Fecha de alta: " +
                 empleado3.dameFechaContrato());
-      
+      */
         
         Empleado[] misEmpleados = new Empleado[4];
         
@@ -56,10 +56,8 @@ public class Uso_Empleado {
             System.out.println("Nombre: " + e.dameNombre() + 
                 " Sueldo: " + e.dameSueldo() + " Fecha de alta: " +
                 e.dameFechaContrato()); 
-        }
-        
-    }
-    
+        }        
+    }    
 }
 
 class Empleado{
