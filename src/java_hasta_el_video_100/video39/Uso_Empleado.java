@@ -76,10 +76,8 @@ class Empleado{
     
     public Empleado(String nom){ this(nom, 30000, 2000, 01, 01); }
     
-    public String dameNombre(){//Método GETTER
-        
-        return nombre;
-        
+    public String dameNombre(){//Método GETTER        
+        return nombre;        
     }
     
     public double dameSueldo(){//Método GETTER
