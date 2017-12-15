@@ -88,18 +88,13 @@ class Empleado{
         return altaContrato;        
     }
     
-    public void subeSueldo(double porcentaje){
+    public void subeSueldo(double porcentaje){       
         
-        
-        double aumento = sueldo*porcentaje/100;
-        
-        sueldo += aumento;
-        
-    }
-    
+        double aumento = sueldo*porcentaje/100;        
+        sueldo += aumento;        
+    }    
     
     private String nombre;
     private double sueldo;
-    private Date altaContrato;
-    
+    private Date altaContrato;    
 }
