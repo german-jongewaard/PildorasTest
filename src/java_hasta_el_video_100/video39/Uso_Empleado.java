@@ -7,7 +7,7 @@ import java.util.*;
 public class Uso_Empleado {
  
     public static void main(String[] args) {
-       /*
+        
         Empleado empleado1 = new Empleado("Paco Gómez", 85000, 1990, 12, 17);
         
         Empleado empleado2 = new Empleado("Ana López", 95000, 1995, 6, 02);
@@ -29,7 +29,7 @@ public class Uso_Empleado {
         System.out.println("Nombre: " + empleado3.dameNombre() + 
                 " Sueldo: " + empleado3.dameSueldo() + " Fecha de alta: " +
                 empleado3.dameFechaContrato());
-      */
+      
         
         Empleado[] misEmpleados = new Empleado[4];
         
@@ -38,7 +38,7 @@ public class Uso_Empleado {
         misEmpleados[2] = new Empleado("María Martín", 105000, 2002, 03, 15);
         misEmpleados[3] = new Empleado("Germán Boer");
         
-         
+        /*
         for(int i=0; i<3;i++){            
             misEmpleados[i].subeSueldo(5);             
         }
@@ -47,7 +47,7 @@ public class Uso_Empleado {
             System.out.println("Nombre: " + misEmpleados[i].dameNombre() + 
                 " Sueldo: " + misEmpleados[i].dameSueldo() + " Fecha de alta: " +
                 misEmpleados[i].dameFechaContrato());            
-        } 
+        }*/
         //EJEMPLO CON EL FOR EACH (FOR MEJORADO) :-)
         for(Empleado e: misEmpleados){
             e.subeSueldo(5);
