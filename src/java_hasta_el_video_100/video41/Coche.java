@@ -1,6 +1,10 @@
-
 package java_hasta_el_video_100.video41;
 
+ /**
+ *
+ * @author german
+ * 
+ */
 
 
 public class Coche {
@@ -28,8 +32,7 @@ public class Coche {
         motor = 1600;
         peso_plataforma = 500;
         
-    }
-    
+    }    
     
     public String dime_datos_generales(){//Método GETTER
         
@@ -37,15 +40,11 @@ public class Coche {
                 " metros con un ancho de " + ancho + " cm y un peso de plataforma de " + 
                 peso_plataforma + " kg." ;        
     }
-    
-     
-    
-    
+           
     public void establece_color(String color_coche){//Método SETTER
         
         color = color_coche;
-    }
-    
+    }    
     
     public String dime_color(){//Método GETTER
         
