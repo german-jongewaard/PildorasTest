@@ -34,10 +34,8 @@ public class Uso_Empleado {
             System.out.println("Nombre: " + e.dameNombre() + 
                 " Sueldo: " + e.dameSueldo() + " Fecha de alta: " +
                 e.dameFechaContrato()); 
-        }
-        
-    }
-    
+        }        
+    }    
 }
 
 class Empleado{
@@ -54,37 +52,25 @@ class Empleado{
         altaContrato = calendario.getTime();
     }
     
-    public Empleado(String nom){
-        
-        this(nom, 30000, 2000, 01, 01);
-        
-    }
+    public Empleado(String nom){ this(nom, 30000, 2000, 01, 01); }
     
     public String dameNombre(){//Método GETTER
-        
-        return nombre;
-        
+        return nombre;       
     }
     
-    public double dameSueldo(){//Método GETTER
-        
-        return sueldo;
-        
+    public double dameSueldo(){//Método GETTER        
+        return sueldo;        
     }
     
-    public Date dameFechaContrato(){//Método GETTER
-        
-        return altaContrato;
-        
+    public Date dameFechaContrato(){//Método GETTER        
+        return altaContrato;        
     }
     
-    public void subeSueldo(double porcentaje){
-        
+    public void subeSueldo(double porcentaje){        
         
         double aumento = sueldo*porcentaje/100;
         
-        sueldo += aumento;
-        
+        sueldo += aumento;        
     }
     
     
