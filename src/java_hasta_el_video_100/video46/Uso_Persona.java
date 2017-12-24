@@ -3,14 +3,13 @@ package java_hasta_el_video_100.video46;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-
  /**
  *
  * @author german
  * 
  */
-public class Uso_Persona {
 
+public class Uso_Persona {
      
     public static void main(String[] args) {
         // TODO code application logic here
@@ -21,15 +20,12 @@ public class Uso_Persona {
         lasPersonas[1] = new Alumno("Ana Lopez", "Matemáticas") {};
         
         for (Persona p: lasPersonas){
-             System.out.println(p.dameNombre()  + " " +  p.dameDescripcion());
-             
+             System.out.println(p.dameNombre()  + " " +  p.dameDescripcion());             
         }
-    }
-    
+    }    
 }
 
-abstract class Persona{
-    
+abstract class Persona{    
     
     public Persona(String nom){
         
@@ -44,8 +40,7 @@ abstract class Persona{
     
     public abstract String dameDescripcion();
     
-    private String nombre;
-    
+    private String nombre;    
     
 }
 
@@ -54,8 +49,7 @@ abstract class Empleado2 extends Persona {
     
     public Empleado2(String nom, double sue, int agno, int mes, int dia){
         
-        super(nom);
-        
+        super(nom);        
          
         sueldo = sue;
         
@@ -78,14 +72,12 @@ abstract class Empleado2 extends Persona {
          
     public double dameSueldo(){//Método GETTER
         
-        return sueldo;
-        
+        return sueldo;        
     }
     
     public Date dameFechaContrato(){//Método GETTER
         
-        return altaContrato;
-        
+        return altaContrato;        
     }
     
     public void subeSueldo(double porcentaje){
@@ -93,8 +85,7 @@ abstract class Empleado2 extends Persona {
         
         double aumento = sueldo*porcentaje/100;
         
-        sueldo += aumento;
-        
+        sueldo += aumento;        
     }
      
      
@@ -113,8 +104,6 @@ abstract class Alumno extends Persona{
         super(nom);
         
         carrera = car;
-        
-        
     }
     
     public String dameDescripcion(){//Método GETTER
