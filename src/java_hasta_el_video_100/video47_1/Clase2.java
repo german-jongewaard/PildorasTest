@@ -17,7 +17,6 @@ public class Clase2 {
         Clase1 miobjeto = new Clase1();
         
         //Instancia de la Clase3
-        Clase3 miobjeto2 = new Clase3();
-        
+        Clase3 miobjeto2 = new Clase3();        
     }    
 }
