@@ -1,6 +1,10 @@
- 
 package java_hasta_el_video_100.video51;
 
+/**
+ *
+ * @author german
+ * 
+ */
  
 public interface Trabajadores {
     
