@@ -1,7 +1,12 @@
- 
-package java_hasta_el_video_100.video50;
+ package java_hasta_el_video_100.video50;
 
 import java.util.*;
+ 
+/**
+ *
+ * @author german
+ * 
+ */
  
 public class Uso_Empleado {
  
@@ -60,10 +65,8 @@ public class Uso_Empleado {
             System.out.println("Nombre: " + e.dameNombre() + 
                 " Sueldo: " + e.dameSueldo() + " Fecha de alta: " +
                 e.dameFechaContrato()); 
-        }
-        
-    }
-    
+        }        
+    }    
 }
 
 class Empleado implements Comparable{
@@ -100,7 +103,7 @@ class Empleado implements Comparable{
     
     public Date dameFechaContrato(){//Método GETTER
         
-        return altaContrato;
+        return altaContrato;        
         
     }
     
