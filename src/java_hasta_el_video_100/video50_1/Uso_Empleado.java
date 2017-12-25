@@ -2,6 +2,12 @@ package java_hasta_el_video_100.video50_1;
  
 import java.util.*;
  
+/**
+ *
+ * @author german
+ * 
+ */
+
 public class Uso_Empleado {
  
     public static void main(String[] args) {
