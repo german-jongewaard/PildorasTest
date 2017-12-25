@@ -1,6 +1,10 @@
- 
 package java_hasta_el_video_100.video48;
 
+/**
+ *
+ * @author german
+ * 
+ */
  
 public class Uso_Tallas {
 
@@ -16,8 +20,7 @@ public class Uso_Tallas {
         Talla S = Talla.MINI;
         Talla M = Talla.MEDIANO;
         Talla L = Talla.GRANDE;
-        Talla XL = Talla.MUY_GRANDE;
-        
+        Talla XL = Talla.MUY_GRANDE;        
         
     }
     
