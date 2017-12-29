@@ -1,14 +1,15 @@
 package java_hasta_el_video_100.video52;
 
 import javax.swing.*;
-
 import java.awt.event.*;
-
 import java.util.*;
-
 import javax.swing.Timer;
-
  
+/**
+ *
+ * @author german
+ * 
+ */
 
 public class PruebaTemporizador {
 
