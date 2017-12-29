@@ -32,8 +32,7 @@ class DameLaHora implements ActionListener {
         
         public void actionPerformed(ActionEvent e){
             
-            Date ahora = new Date();
-            
+            Date ahora = new Date();            
             /* Cada cinco segundos se pone la hora, se ejecuta en actionPerformed */
             System.out.println("Te pongo la hora cada 5 sg: " + ahora);
         }
