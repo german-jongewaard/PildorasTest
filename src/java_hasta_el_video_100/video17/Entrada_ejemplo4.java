@@ -1,14 +1,15 @@
 package java_hasta_el_video_100.video17;
+
+import java.util.*;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author German
  * 
  */
-import java.util.*;
-import javax.swing.JOptionPane;
  
 public class Entrada_ejemplo4 {
-
      
     public static void main(String[] args) {
         
