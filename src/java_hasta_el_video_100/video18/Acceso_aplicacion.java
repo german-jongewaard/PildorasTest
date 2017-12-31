@@ -13,8 +13,7 @@ public class Acceso_aplicacion {
     
     public static void main(String[] args) {        
                  
-        String clave = "German";
-        
+        String clave = "German";        
         String pass = "";
         
         while(clave.equals(pass) == false){
