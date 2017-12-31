@@ -1,13 +1,14 @@
 package java_hasta_el_video_100.video16;
+
 /**
  *
  * @author German
  * 
  */
+
 import java.util.*;
  
 public class Condicionales_ejemplo1 {
-
     
     public static void main(String[] args) {
       
@@ -20,8 +21,11 @@ public class Condicionales_ejemplo1 {
         if ( edad >= 18) {
             
             System.out.println("Eres mayor de edad!!!");
-          }else{
+            
+          } else {
+            
             System.out.println("Ohhh eres un jovenzuelo!");
+            
         }
     }    
 }
