@@ -7,10 +7,7 @@ package java_hasta_el_video_100.video14;
 import java.util.*; 
  
 public class Entrada_ejemplo1 {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         
         
