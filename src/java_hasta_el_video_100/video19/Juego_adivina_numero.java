@@ -1,10 +1,12 @@
 package java_hasta_el_video_100.video19;
+ 
+import java.util.*; 
+
  /**
  *
  * @author Germán
  * 
  */
-import java.util.*; 
  
 public class Juego_adivina_numero {    
      
