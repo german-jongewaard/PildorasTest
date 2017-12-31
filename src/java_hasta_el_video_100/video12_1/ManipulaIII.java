@@ -6,9 +6,6 @@ package java_hasta_el_video_100.video12_1;
  */
 public class ManipulaIII {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         String alumno1, alumno2;
         
