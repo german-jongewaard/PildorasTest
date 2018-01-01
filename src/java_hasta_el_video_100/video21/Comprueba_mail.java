@@ -1,10 +1,11 @@
 package java_hasta_el_video_100.video21;
+ 
+import javax.swing.JOptionPane;
 /**
  *
  * @author Germán
  * 
  */
-import javax.swing.JOptionPane;
 
 public class Comprueba_mail {
     
