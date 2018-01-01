@@ -1,4 +1,5 @@
 package java_hasta_el_video_100.video28;
+
 /**
  *
  * @author Germán
@@ -16,6 +17,7 @@ public class Coche {
     /*El metodo constructor se llama igual que la Clase */
     
     public Coche(){
+        
         /*Aqui contruyo el estado inicial del OBJETO! */
         
         ruedas = 4;
