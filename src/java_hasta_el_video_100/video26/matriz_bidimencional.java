@@ -1,9 +1,11 @@
 package java_hasta_el_video_100.video26;
+
 /**
  *
  * @author Germán
  * 
  */
+
 public class matriz_bidimencional {
     
     public static void main(String[] args) {       
@@ -16,11 +18,16 @@ public class matriz_bidimencional {
         };
         
         for(int i=0; i < 4;i++){
+            
             System.out.println();
+            
           for(int j=0; j<5;j++){
+              
               System.out.print( matrix[i][j] + " ");
+              
           }
         }
+        
         System.out.println(" ");
     }    
 }
