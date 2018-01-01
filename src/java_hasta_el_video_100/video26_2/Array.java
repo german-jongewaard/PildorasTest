@@ -1,9 +1,11 @@
 package java_hasta_el_video_100.video26_2;
+
 /**
  *
  * @author Germán
  * 
  */ 
+
 public class Array {
      
     public static void main(String[] args) {              
