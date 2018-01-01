@@ -1,9 +1,11 @@
 package java_hasta_el_video_100.video30;
+
 /**
  *
  * @author Germán
  * 
  */
+
 public class Coche {
     
     private int ruedas;    
@@ -21,6 +23,7 @@ public class Coche {
     /*El metodo constructor se llama igual que la Clase */
     
     public Coche(){
+        
         /*Aqui contruyo el estado inicial del OBJETO! */
         
         ruedas = 4;
