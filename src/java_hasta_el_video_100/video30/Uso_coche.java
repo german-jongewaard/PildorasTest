@@ -1,10 +1,16 @@
 package java_hasta_el_video_100.video30;
-/* ESTE EJERCICIO ES DE LA CLASE 30 a mitad de video!!! */
- /**
- *
- * @author Germán
- * 
- */
+
+/* 
+*
+*   ESTE EJERCICIO ES DE LA CLASE 30 a mitad de video!!!
+*
+*/
+
+/**
+*
+* @author Germán
+* 
+*/
 public class Uso_coche {
      
     public static void main(String[] args) {
