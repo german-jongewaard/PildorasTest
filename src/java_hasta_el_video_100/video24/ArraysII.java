@@ -1,10 +1,11 @@
 package java_hasta_el_video_100.video24;
+ 
+import javax.swing.*;
 /**
  *
  * @author Germán
  * 
  */
-import javax.swing.*;
 
 public class ArraysII {
     
