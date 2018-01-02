@@ -73,11 +73,9 @@ class Empleado{
         sueldo += aumento;        
     }
     
-    
     private String nombre;
     private double sueldo;
-    private Date altaContrato;
-    
+    private Date altaContrato;    
 }
 
 
@@ -103,5 +101,4 @@ class Jefatura extends Empleado{
     }
     
     private double incentivo;
-
 }
