@@ -27,11 +27,7 @@ public class Uso_Persona {
 
 abstract class Persona{    
     
-    public Persona(String nom){
-        
-        nombre = nom;
-        
-    }
+    public Persona(String nom){ nombre = nom; }
     
     public String dameNombre(){//metodo Getter
         
@@ -40,10 +36,8 @@ abstract class Persona{
     
     public abstract String dameDescripcion();
     
-    private String nombre;    
-    
+    private String nombre;        
 }
-
 
 abstract class Empleado2 extends Persona {
     
