@@ -34,8 +34,7 @@ abstract class Persona{
         return nombre;
     }
     
-    public abstract String dameDescripcion();
-    
+    public abstract String dameDescripcion();    
     private String nombre;        
 }
 
@@ -51,10 +50,8 @@ abstract class Empleado2 extends Persona {
         GregorianCalendar calendario = new GregorianCalendar(agno, mes-1, dia);
         
         //Con getTime, almacenamos la fecha!!!
-        altaContrato = calendario.getTime();
-        
-        ++IdSiguiente;
-        
+        altaContrato = calendario.getTime();        
+        ++IdSiguiente;        
         Id=IdSiguiente;
     }
     
