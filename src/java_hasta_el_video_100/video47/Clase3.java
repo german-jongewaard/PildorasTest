@@ -8,8 +8,6 @@ import java_hasta_el_video_100.video47_1.Clase1;
  * 
  */
 
-public class Clase3 extends Clase1{
-    
-    
+public class Clase3 extends Clase1{ 
     
 }
