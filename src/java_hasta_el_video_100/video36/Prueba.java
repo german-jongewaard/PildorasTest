@@ -5,6 +5,7 @@ package java_hasta_el_video_100.video36;
  * @author german
  * 
  */
+
 public class Prueba {
 
     public static void main(String[] args) {
@@ -18,8 +19,7 @@ public class Prueba {
         
         trabajador1.cambiaSeccion("RRHH");
         
-        trabajador3.cambiaSeccion("GERENCIA");        
-        
+        trabajador3.cambiaSeccion("GERENCIA"); 
         
         System.out.println(trabajador1.devuelveDatos());
         System.out.println(trabajador2.devuelveDatos());
@@ -28,7 +28,7 @@ public class Prueba {
         System.out.println(trabajador5.devuelveDatos());
         System.out.println(trabajador6.devuelveDatos());
         
-         System.out.println(Empleados.dameIdSiguiente());
+        System.out.println(Empleados.dameIdSiguiente());
     }    
 }
 
