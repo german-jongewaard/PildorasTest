@@ -97,12 +97,10 @@ class Empleado{
         sueldo += aumento;
         
     }
-    
-    
+        
     private String nombre;
     private double sueldo;
-    private Date altaContrato;
-    
+    private Date altaContrato;    
 }
 
 /*Con el "final" estoy deteniendo la cadena de la Herencia de la clase Jefatura*/
