@@ -6,7 +6,6 @@ package java_hasta_el_video_100.video41;
  * 
  */
 
-
 public class Coche {
     
     private int ruedas;    
@@ -111,15 +110,17 @@ public class Coche {
         int precio_final = 10000;
         
         if(asientos_cuero==true){
+            
             precio_final += 2000;            
+            
         }
+        
         if(climatizador==true){
+            
             precio_final += 1500;
+            
         }
         
         return precio_final;
     }
-    
-    
-    
 }
