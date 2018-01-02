@@ -6,6 +6,7 @@ import java.util.*;
  *
  * @author german
  */ 
+
 public class Uso_Empleado {
  
     public static void main(String[] args) {
@@ -57,10 +58,8 @@ public class Uso_Empleado {
             System.out.println("Nombre: " + e.dameNombre() + 
                 " Sueldo: " + e.dameSueldo() + " Fecha de alta: " +
                 e.dameFechaContrato()); 
-        }
-        
-    }
-    
+        }       
+    }    
 }
 
 class Empleado{
@@ -95,18 +94,15 @@ class Empleado{
         
     }
     
-    public void subeSueldo(double porcentaje){
-        
+    public void subeSueldo(double porcentaje){        
         
         double aumento = sueldo*porcentaje/100;
         
         sueldo += aumento;
         
     }
-    
-    
+        
     private String nombre;
     private double sueldo;
     private Date altaContrato;
-    
 }
