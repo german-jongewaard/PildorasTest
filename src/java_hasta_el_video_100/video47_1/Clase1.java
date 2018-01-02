@@ -15,6 +15,6 @@ public class Clase1 {
     protected String mimetodo(){//METODO GETTER
     
         return "El valor de mivar2 es: " + mivar2;
-}
+    }
     
 }
