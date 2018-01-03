@@ -51,10 +51,8 @@ public class Uso_Empleado {
             System.out.println("Nombre: " + e.dameNombre() + 
                 " Sueldo: " + e.dameSueldo() + " Fecha de alta: " +
                 e.dameFechaContrato()); 
-        }
-        
-    }
-    
+        }        
+    }    
 }
 
 class Empleado implements Comparable, Trabajadores{
