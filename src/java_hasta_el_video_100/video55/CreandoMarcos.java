@@ -1,17 +1,17 @@
- 
-package java_hasta_el_video_100.video55;
+ package java_hasta_el_video_100.video55;
 
 import javax.swing.*;
-
+ 
+ /**
+ *
+ * @author german
+ * 
+ */
 
 public class CreandoMarcos {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        
+                
         miMarco marco1 = new miMarco();
         
         marco1.setLocationRelativeTo(null);                
@@ -20,8 +20,7 @@ public class CreandoMarcos {
         marco1.setVisible(true);
         
         marco1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    }
-    
+    }    
 }
 
 class miMarco extends JFrame {
@@ -39,6 +38,5 @@ class miMarco extends JFrame {
         //setExtendedState(Fraame.MAXIMISED_BOTH);
         
         setTitle("Mi Ventana");
-    }
-    
+    }    
 }
