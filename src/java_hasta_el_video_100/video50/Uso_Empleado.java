@@ -1,4 +1,4 @@
- package java_hasta_el_video_100.video50;
+package java_hasta_el_video_100.video50;
 
 import java.util.*;
  
@@ -28,6 +28,7 @@ public class Uso_Empleado {
         misEmpleados[5] = new Jefatura("María", 95000, 1999, 5, 26);
         
         Jefatura jefa_Finanzas=(Jefatura) misEmpleados[5];
+        
         /* Aquí estoy "Casteando" a misEmpleados[5] */
         jefa_Finanzas.estableceIncentivo(55000);
         
@@ -172,9 +173,7 @@ class Director extends Jefatura{
     
     public Director(String nom, double sue, int agno, int mes, int dia){
     
-        super(nom, sue, agno, mes, dia);
-        
-    }
-    
+        super(nom, sue, agno, mes, dia);        
+    }    
 }
 */
