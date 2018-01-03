@@ -11,11 +11,11 @@ public class Uso_Tallas {
     /*Los tipos enumerados se declaran fuera del main*/
     
     enum Talla{MINI, MEDIANO, GRANDE, MUY_GRANDE};
+    
     /*La variable objeto Talla solo puede almacenar en su 
     interior los datos que hemos ingresado*/
      
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) {        
         
         Talla S = Talla.MINI;
         Talla M = Talla.MEDIANO;
