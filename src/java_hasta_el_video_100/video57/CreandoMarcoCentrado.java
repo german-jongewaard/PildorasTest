@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package java_hasta_el_video_100.video57;
 
 import java.awt.Dimension;
@@ -12,15 +7,14 @@ import javax.swing.JFrame;
 
 /**
  *
- * @author German
+ * @author german
+ * 
  */
+
 public class CreandoMarcoCentrado {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
         MarcoCentrado marco1 = new MarcoCentrado();
         
         //marco1.setLocationRelativeTo(null);                                
@@ -28,8 +22,7 @@ public class CreandoMarcoCentrado {
         marco1.setVisible(true);
         
         marco1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    }
-    
+    }    
 }
 
 class MarcoCentrado extends JFrame {
