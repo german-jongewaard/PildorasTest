@@ -45,10 +45,8 @@ public class Uso_Empleado {
             System.out.println("Nombre: " + e.dameNombre() + 
                 " Sueldo: " + e.dameSueldo() + " Fecha de alta: " +
                 e.dameFechaContrato()); 
-        }
-        
-    }
-    
+        }        
+    }    
 }
 
 class Empleado implements Comparable{
@@ -58,7 +56,7 @@ class Empleado implements Comparable{
         nombre = nom;
         sueldo = sue;
         
-        //Construyo en OBJETO calendario con la clase GregorianCalendar!!!
+        //Construyo en OBJETO calendario con la clase GregorianCalendar!!!  
         GregorianCalendar calendario = new GregorianCalendar(agno, mes-1, dia);
         
         //Con getTime, almacenamos la fecha!!!
@@ -116,7 +114,7 @@ class Empleado implements Comparable{
          return 0;
 }
     
-    /*Campos de clase*/
+    /*Campos de clase*/  
     private String nombre;
     private double sueldo;
     private Date altaContrato;
