@@ -3,6 +3,12 @@ package java_hasta_el_video_100.video59;
 import java.awt.*;
 import javax.swing.*;
 
+/**
+ *
+ * @author german
+ * 
+ */
+
 public class PruebaDibujo {
 
     
