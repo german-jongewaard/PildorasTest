@@ -1,23 +1,23 @@
 package java_hasta_el_video_100.video58;
 
 import javax.swing.*;
-
 import java.awt.*;
-        
+
+/**
+ *
+ * @author german
+ * 
+ */        
    
 public class EscribiendoEnMarco {
-
     
     public static void main(String[] args) {
-        // TODO code application logic here
         
-
         //Creando la instancia de la clase
         
         MarcoConTexto miMarco = new MarcoConTexto();
         
-        miMarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        
+        miMarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);        
          
     }
     
