@@ -1,16 +1,18 @@
-
 package java_hasta_el_video_100.video60;
 
 import java.awt.*;
 import java.awt.geom.*;
-
 import javax.swing.*;
+
+/**
+ *
+ * @author german
+ * 
+ */
 
 public class PruebaDibujo {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         MarcoConDibujos mimarco = new MarcoConDibujos();
