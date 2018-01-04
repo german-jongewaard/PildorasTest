@@ -1,12 +1,15 @@
-
 package java_hasta_el_video_100.video62;
 
  
 import java.awt.*;
-
 import java.awt.geom.*;
-
 import javax.swing.*;
+
+/**
+ *
+ * @author german
+ * 
+ */
 
 public class TrabajandoColores {
 
