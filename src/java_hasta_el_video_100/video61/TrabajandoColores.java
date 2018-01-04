@@ -1,17 +1,17 @@
-
 package java_hasta_el_video_100.video61;
 
 import java.awt.*;
-
 import java.awt.geom.*;
-
 import javax.swing.*;
+
+/**
+ *
+ * @author german
+ * 
+ */
 
 public class TrabajandoColores {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         MarcoConColor mimarco = new MarcoConColor();
