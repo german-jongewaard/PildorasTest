@@ -1,23 +1,19 @@
-
 package java_hasta_el_video_100.video66;
- 
- 
+  
 import java.awt.*;
-
 import java.awt.event.*;
-
 import javax.swing.*;
-
 import javax.imageio.*;
-
 import java.io.*;
- 
+
+/**
+ *
+ * @author german
+ * 
+ */  
 
 public class TrabajandoConImagenes {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         MarcoBotones mimarco = new MarcoBotones();
@@ -89,8 +85,7 @@ class LaminaBotones extends JPanel implements ActionListener{
            setBackground(Color.yellow);
        }else {
            setBackground(Color.red);
-       } 
-         
+       }          
    }
 }
      
