@@ -1,23 +1,18 @@
-
 package java_hasta_el_video_100.video64;
- 
- 
- 
+  
 import java.awt.*;
-
-
 import javax.swing.*;
-
 import javax.imageio.*;
-
 import java.io.*;
- 
+
+/**
+ *
+ * @author german
+ * 
+ */ 
 
 public class TrabajandoConImagenes {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         MarcoConImagenes mimarco = new MarcoConImagenes();
