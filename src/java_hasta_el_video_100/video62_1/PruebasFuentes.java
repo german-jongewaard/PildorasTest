@@ -1,4 +1,4 @@
- package java_hasta_el_video_100.video62_1;
+package java_hasta_el_video_100.video62_1;
  
 import java.awt.GraphicsEnvironment;
 import javax.swing.*;
