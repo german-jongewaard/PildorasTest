@@ -1,22 +1,21 @@
-
 package java_hasta_el_video_100.video75_1;
   
 import java.awt.event.*;
 import javax.swing.JFrame;
 
-
-  
+/**
+ *
+ * @author german
+ * 
+ */ 
 
 public class FocoVentana extends JFrame implements WindowFocusListener{
-
      
     public static void main(String[] args) {
         
         FocoVentana miventana = new FocoVentana();
         
         miventana.iniciar();
-        
-         
     }
     
     //Metodo donde construyo los marcos
@@ -41,8 +40,6 @@ public class FocoVentana extends JFrame implements WindowFocusListener{
         marco1.addWindowFocusListener(this);
         
         marco2.addWindowFocusListener(this);
-        
-        
     }
 
     @Override
@@ -64,9 +61,7 @@ public class FocoVentana extends JFrame implements WindowFocusListener{
         }
     }
     
-    FocoVentana marco1;
-    
-    FocoVentana marco2;
-    
+    FocoVentana marco1;    
+    FocoVentana marco2;    
 }
  
