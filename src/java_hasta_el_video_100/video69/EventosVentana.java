@@ -1,20 +1,17 @@
-
 package java_hasta_el_video_100.video69;
-   
-  
+     
 import java.awt.*;
-
 import java.awt.event.*;
-
 import javax.swing.*;
 
-  
+/**
+ *
+ * @author german
+ * 
+ */   
 
 public class EventosVentana {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         MarcoVentana mimarco = new MarcoVentana();
@@ -37,8 +34,7 @@ public class EventosVentana {
         mimarco.setBounds(100,100,500,350);
         
         mimarco2.setBounds(750,100,500,350);
-    }
-    
+    }    
 }
 
  class MarcoVentana extends JFrame{
@@ -66,13 +62,10 @@ public class EventosVentana {
         /* //Creando la Instancia 
         M_Ventana oyente_ventana = new M_Ventana();        
         addWindowListener(oyente_ventana);
-        */
-        
+        */        
         
 //Esta es otra forma mas minimizada de Instanciar a M_Ventana.
-        addWindowListener(new M_Ventana());
-
-          
+        addWindowListener(new M_Ventana());          
     }    
 }
   
@@ -80,15 +73,12 @@ public class EventosVentana {
   Extendiendo WindowsAdapter utilizo los metodos que me hagan falta
   y no tengo que colocar los 7 metodos por obligacion.
 */
-class M_Ventana extends WindowAdapter{
-    
-     
+class M_Ventana extends WindowAdapter{  
     
     public void windowIconified(WindowEvent e){
     
         System.out.println("Ventana minimizada");        
-    }
-     
+    }     
     
     public void windowDeactivated(WindowEvent e){
     
