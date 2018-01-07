@@ -1,20 +1,17 @@
-
-package java_hasta_el_video_100.video70;
-   
+package java_hasta_el_video_100.video70;   
  
 import java.awt.*;
-
 import java.awt.event.*;
-
 import javax.swing.*;
 
-  
+/**
+ *
+ * @author german
+ * 
+ */
 
 public class EventosVentana {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         MarcoEstado mimarco = new MarcoEstado();
@@ -23,8 +20,7 @@ public class EventosVentana {
         
         mimarco.setTitle("Marco Estado"); 
         
-        mimarco.setBounds(300,300,500,350);
-         
+        mimarco.setBounds(300,300,500,350);         
     }
 }
 
@@ -61,8 +57,7 @@ class CambiaEstado implements WindowStateListener{
         }else if(e.getNewState()==Frame.NORMAL){
             System.out.println("La ventana está normal");
         }
-         
-        
+                 
         switch (e.getNewState()) {
             case 0:  System.out.println("La ventana está normal");
                      break;
