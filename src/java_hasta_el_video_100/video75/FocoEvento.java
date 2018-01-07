@@ -1,28 +1,24 @@
-
 package java_hasta_el_video_100.video75;
   
 import java.awt.Graphics;
-
 import java.awt.event.*;
 import javax.swing.JFrame;
-
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-  
+/**
+ *
+ * @author german
+ * 
+ */   
 
 public class FocoEvento {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         MarcoFoco mimarco = new MarcoFoco();
          
-        mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
-        
-         
+        mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);   
     }
 }
 
@@ -38,8 +34,7 @@ public class FocoEvento {
         
         LaminaFoco mi_lamina_foco = new LaminaFoco();
         
-        add(mi_lamina_foco);
-         
+        add(mi_lamina_foco);         
     }    
 }
 
@@ -57,15 +52,14 @@ class LaminaFoco extends JPanel {
     //Ahora instancio las variables a JTextField
        cuadro1 = new JTextField();
        
-       cuadro2 = new JTextField();
+       cuadro2 = new JTextField();       
        
-       
-       //Con esto estan construidos los cuadros de texto
+    //Con esto estan construidos los cuadros de texto
        cuadro1.setBounds(120, 10, 150, 20);
        
        cuadro2.setBounds(120, 50, 150, 20);
        
-       //con esto estan agregados los cuadros de texto
+    //con esto estan agregados los cuadros de texto
        
        add(cuadro1);
        add(cuadro2);
@@ -120,10 +114,8 @@ private class LanzaFocos implements FocusListener{
             System.out.println("Solo cambie de foco... ");
         }else{             
             System.out.println("Incorrecto " + " Hay " + conteoArroba + " arrobas, MAL! ");
-        }
-        
-    }
-    
+        }        
+    }    
 }
 
    /*
@@ -134,8 +126,7 @@ private class LanzaFocos implements FocusListener{
    
    */
    JTextField cuadro1;
-   JTextField cuadro2;
-   
+   JTextField cuadro2;   
 }
  
 
