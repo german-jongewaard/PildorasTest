@@ -1,17 +1,16 @@
-
 package java_hasta_el_video_100.video67;
-  
- 
+   
 import java.awt.*;
-
 import java.awt.event.*;
-
 import javax.swing.*;
-
 import javax.imageio.*;
-
 import java.io.*;
- 
+
+ /**
+ *
+ * @author german
+ * 
+ */ 
 
 public class TrabajandoConImagenes {
 
@@ -52,9 +51,7 @@ public class TrabajandoConImagenes {
         //Instancio la clase LaminaConFiguras para poder verla en el marco con dibujos!
         LaminaBotones milamina = new LaminaBotones();
         //Agrego la instancia !
-        add(milamina);
-        
-         
+        add(milamina);       
         
     }    
 }
@@ -62,8 +59,7 @@ public class TrabajandoConImagenes {
 /*Aqui el programa hace lo mismo, pero cambio la Lamina para que no sea OYENTE, 
     sin ser ActionListener
 */
- 
-    
+   
 
 class LaminaBotones extends JPanel {
     
@@ -126,7 +122,6 @@ private class ColorFondo implements ActionListener{
          private Color colorDeFondo;
 
 }
-
   
 }
 
