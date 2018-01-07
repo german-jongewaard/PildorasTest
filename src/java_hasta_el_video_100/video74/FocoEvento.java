@@ -1,29 +1,24 @@
-
-package java_hasta_el_video_100.video74;
-  
+package java_hasta_el_video_100.video74;  
   
 import java.awt.Graphics;
-
 import java.awt.event.*;
 import javax.swing.JFrame;
-
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-  
+/**
+ *
+ * @author german
+ * 
+ */    
 
 public class FocoEvento {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         MarcoFoco mimarco = new MarcoFoco();
          
         mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
-        
-         
     }
 }
 
@@ -39,8 +34,7 @@ public class FocoEvento {
         
         LaminaFoco mi_lamina_foco = new LaminaFoco();
         
-        add(mi_lamina_foco);
-         
+        add(mi_lamina_foco);         
     }    
 }
 
@@ -73,8 +67,7 @@ class LaminaFoco extends JPanel {
        
        LanzaFocos elFoco= new LanzaFocos();
        
-       cuadro1.addFocusListener(elFoco);
-       
+       cuadro1.addFocusListener(elFoco);       
    }
 /*La clase LanzaFocos la pongo dentro de la clase LaminaFoco (la hago Clase Interna 
    y conviene ENCAPSULARLA con el modificador private)
@@ -96,8 +89,7 @@ private class LanzaFocos implements FocusListener{
     @Override
     public void focusLost(FocusEvent e) {
         System.out.println("He perdido el Foco");
-    }
-    
+    }    
 }
 
    /*
