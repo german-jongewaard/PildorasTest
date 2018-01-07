@@ -1,24 +1,20 @@
-
 package java_hasta_el_video_100.video73;
   
 import java.awt.event.MouseEvent;
-
 import java.awt.event.MouseAdapter;
-
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
-
 import javax.swing.JFrame;
-
 import javax.swing.JPanel;
 
-  
+/**
+ *
+ * @author german
+ * 
+ */  
 
 public class EventosMouse {
-
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
         // TODO code application logic here
         MarcoConTeclas mimarco = new MarcoConTeclas();
@@ -27,8 +23,7 @@ public class EventosMouse {
         
         mimarco.setTitle("Marco Estado"); 
         
-        mimarco.setBounds(300,300,500,350);
-         
+        mimarco.setBounds(300,300,500,350);         
     }
 }
 
@@ -46,8 +41,7 @@ public class EventosMouse {
         
       //  addMouseListener(mouse_escucha);
         
-        addMouseMotionListener(mouse_escucha);
-        
+        addMouseMotionListener(mouse_escucha);        
     }    
 }
 
@@ -90,6 +84,5 @@ class EventoDeMouse extends MouseAdapter{
     @Override
     public void mouseMoved(MouseEvent e) {
         System.out.println("Estás moviendo...");
-    }
-     
+    }     
  }
