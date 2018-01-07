@@ -10,6 +10,11 @@ import javax.swing.JPanel;
  * @author german
  * 
  */
+ 
+
+
+
+
 
 public class EventosTeclado {
     
@@ -22,8 +27,31 @@ public class EventosTeclado {
         mimarco.setTitle("Marco Estado"); 
         
         mimarco.setBounds(300,300,500,350);         
+        
+        
+        
+        
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  class MarcoConTeclas extends JFrame{
     
