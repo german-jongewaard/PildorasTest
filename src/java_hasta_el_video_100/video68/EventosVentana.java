@@ -1,23 +1,17 @@
-
 package java_hasta_el_video_100.video68;
-   
- 
+    
 import java.awt.*;
-
 import java.awt.event.*;
-
 import javax.swing.*;
 
- 
-
- 
- 
+/**
+ *
+ * @author german
+ * 
+ */ 
 
 public class EventosVentana {
-
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
         // TODO code application logic here
         MarcoVentana mimarco = new MarcoVentana();
@@ -40,8 +34,7 @@ public class EventosVentana {
         mimarco.setBounds(100,100,500,350);
         
         mimarco2.setBounds(750,100,500,350);
-    }
-    
+    }    
 }
 
  class MarcoVentana extends JFrame{
@@ -70,9 +63,6 @@ public class EventosVentana {
         M_Ventana oyente_ventana = new M_Ventana();
         
         addWindowListener(oyente_ventana);
-        
-        
-          
     }    
 }
   
