@@ -1,23 +1,18 @@
-
-package java_hasta_el_video_100.video71;
-    
- 
- 
+package java_hasta_el_video_100.video71;  
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-
 import javax.swing.JFrame;
-
 import javax.swing.JPanel;
 
-  
+/**
+ *
+ * @author german
+ * 
+ */
 
 public class EventosTeclado {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         MarcoConTeclas mimarco = new MarcoConTeclas();
@@ -26,8 +21,7 @@ public class EventosTeclado {
         
         mimarco.setTitle("Marco Estado"); 
         
-        mimarco.setBounds(300,300,500,350);
-         
+        mimarco.setBounds(300,300,500,350);         
     }
 }
 
@@ -43,8 +37,7 @@ public class EventosTeclado {
         
         EventoDeTeclado tecladoescucha=new EventoDeTeclado();
         
-        addKeyListener(tecladoescucha);
-        
+        addKeyListener(tecladoescucha);        
     }    
 }
 
@@ -68,9 +61,7 @@ class EventoDeTeclado implements KeyListener{
     @Override
     public void keyReleased(KeyEvent e) {
       
-    }
-    
-    
+    }   
 }
  
         
