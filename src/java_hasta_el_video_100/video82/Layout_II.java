@@ -1,17 +1,18 @@
-
 package java_hasta_el_video_100.video82;
  
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import java.awt.event.*;
-
 import javax.swing.*;
+
+/**
+ *
+ * @author german
+ * 
+ */
  
 public class Layout_II {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         Marco_Layout mimarco = new Marco_Layout(); 
@@ -19,8 +20,7 @@ public class Layout_II {
         mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         mimarco.setVisible(true);
-    }
-    
+    }    
 }
 
  class Marco_Layout extends JFrame{
@@ -38,8 +38,7 @@ public class Layout_II {
        Panel_Layout2 lamina2 = new Panel_Layout2();
         
        add(lamina, BorderLayout.NORTH);
-       add(lamina2, BorderLayout.SOUTH);
-         
+       add(lamina2, BorderLayout.SOUTH);         
     }    
 }
 
@@ -52,8 +51,6 @@ class Panel_Layout extends JPanel  {
       add(new JButton("Amarillo"));
       
       add(new JButton("Rojo"));
-      
-      
   }
 }
 
