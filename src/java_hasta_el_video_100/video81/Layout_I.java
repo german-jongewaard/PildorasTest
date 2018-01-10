@@ -1,16 +1,17 @@
-
 package java_hasta_el_video_100.video81;
  
 import java.awt.FlowLayout;
 import java.awt.event.*;
-
 import javax.swing.*;
+
+/**
+ *
+ * @author german
+ * 
+ */
  
 public class Layout_I {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         Marco_Layout mimarco = new Marco_Layout(); 
@@ -18,8 +19,7 @@ public class Layout_I {
         mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         mimarco.setVisible(true);
-    }
-    
+    }    
 }
 
  class Marco_Layout extends JFrame{
@@ -38,13 +38,7 @@ public class Layout_I {
        
        //Una diferente disposicion a la que esta comentada arriba. pero hace lo mismo
        lamina.setLayout(new FlowLayout(FlowLayout.LEFT));
-       
-       
-       
-       
-       
-       add(lamina);
-         
+       add(lamina);         
     }    
 }
 
@@ -57,10 +51,6 @@ class Panel_Layout extends JPanel  {
       add(new JButton("Rojo"));
       
       add(new JButton("Azul"));
-      
-      
-       
-      
   }
 }
 
