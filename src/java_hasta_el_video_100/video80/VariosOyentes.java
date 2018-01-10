@@ -1,15 +1,16 @@
-
 package java_hasta_el_video_100.video80;
  
 import java.awt.event.*;
-
 import javax.swing.*;
+
+/**
+ *
+ * @author german
+ * 
+ */
  
 public class VariosOyentes {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         Marco_Principal mimarco = new Marco_Principal(); 
@@ -17,8 +18,7 @@ public class VariosOyentes {
         mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         mimarco.setVisible(true);
-    }
-    
+    }    
 }
 
  class Marco_Principal extends JFrame{
@@ -31,8 +31,7 @@ public class VariosOyentes {
        
        Lamina_Principal lamina = new Lamina_Principal();
        
-       add(lamina);
-         
+       add(lamina);         
     }    
 }
 
@@ -50,8 +49,7 @@ class Lamina_Principal extends JPanel  {
       
       OyenteNuevo miOyente = new OyenteNuevo();
       
-      boton_nuevo.addActionListener(miOyente);
-      
+      boton_nuevo.addActionListener(miOyente);      
   }
   
   private class OyenteNuevo implements ActionListener {
@@ -61,9 +59,6 @@ class Lamina_Principal extends JPanel  {
             Marco_Emergente marco = new Marco_Emergente(boton_cerrar);
             
             marco.setVisible(true);
-            
-           
-            
         } 
   }
   
@@ -82,20 +77,15 @@ class Marco_Emergente extends JFrame{
         
         Cierra_Todos oyenteCerrar = new Cierra_Todos();
         
-        boton_de_principal.addActionListener(oyenteCerrar);
-        
-        
+        boton_de_principal.addActionListener(oyenteCerrar);  
     }
     
     private class Cierra_Todos implements ActionListener{
-
         
         public void actionPerformed(ActionEvent e) {
             
-            dispose();
-            
-        }
-         
+            dispose();            
+        }         
     }
     
     private static int contador = 0;
