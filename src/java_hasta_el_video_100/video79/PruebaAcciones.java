@@ -1,10 +1,7 @@
-
 package java_hasta_el_video_100.video79;
  
 import java.awt.*;
-
 import java.awt.event.*;
-
 import javax.swing.*;
 
 /**
@@ -14,10 +11,7 @@ import javax.swing.*;
  */
  
 public class PruebaAcciones {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         MarcoAccion mimarco = new MarcoAccion();
@@ -25,8 +19,7 @@ public class PruebaAcciones {
         mimarco.setVisible(true);
         
         mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    }
-    
+    }    
 }
 
  class MarcoAccion extends JFrame{
@@ -53,16 +46,12 @@ public class PruebaAcciones {
         PanelAccion milamina = new PanelAccion();
         //Agrego la instancia !
         add(milamina);
-        
-         
-        
     }    
 }
 
 class PanelAccion extends JPanel  {
 
-  public PanelAccion(){
-      
+  public PanelAccion(){      
       
     AccionColor accionAmarillo=new AccionColor("Amarillo", new ImageIcon("src/video76/imagenes/amarilla.gif"), 
             Color.YELLOW);
@@ -106,11 +95,6 @@ class PanelAccion extends JPanel  {
     mapaAccion.put("fondo_azul", accionAzul);
     
     mapaAccion.put("fondo_rojo", accionRojo);
-    
-     
-    
-    
-     
   } 
     
   private class AccionColor extends AbstractAction{
