@@ -6,6 +6,12 @@ import java.awt.*;
 import java.awt.event.*;
 
 import javax.swing.*;
+
+/**
+ *
+ * @author german
+ * 
+ */
  
 public class PruebaAcciones {
 
