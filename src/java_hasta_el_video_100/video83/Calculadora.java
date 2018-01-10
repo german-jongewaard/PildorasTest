@@ -1,18 +1,19 @@
- 
-package java_hasta_el_video_100.video83;
+ package java_hasta_el_video_100.video83;
 
  
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.*;
-
 import javax.swing.*;
  
+ /**
+ *
+ * @author german
+ * 
+ */
+ 
 public class Calculadora {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         MarcoCalculadora mimarco = new MarcoCalculadora(); 
@@ -20,8 +21,7 @@ public class Calculadora {
         mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         mimarco.setVisible(true);
-    }
-    
+    }    
 }
 
  class MarcoCalculadora extends JFrame{
@@ -36,8 +36,7 @@ public class Calculadora {
       
        add(milamina);
       
-      // pack();
-         
+      // pack();         
     }    
 }
 
@@ -82,8 +81,7 @@ class LaminaCalculadora extends JPanel{
         ponerBoton("0", insertar);
         ponerBoton(".", insertar);
         ponerBoton("=", orden);      
-        ponerBoton("+", orden);
-        
+        ponerBoton("+", orden);        
          
         add(milamina2, BorderLayout.CENTER);
         ultimaOperacion = "=";
@@ -100,7 +98,6 @@ class LaminaCalculadora extends JPanel{
     }
     
     private class InsertaNumero implements ActionListener{
-
         
         public void actionPerformed(ActionEvent e) {
             
@@ -114,18 +111,15 @@ class LaminaCalculadora extends JPanel{
                 }
                 
                 pantalla.setText(pantalla.getText() + entrada);
-        }
-        
+        }        
     }
     
     private class AccionOrden implements ActionListener {
-
         
         public void actionPerformed(ActionEvent e) {
             
             //almaceno un string en la variable operacion
-            String operacion = e.getActionCommand();
-             
+            String operacion = e.getActionCommand();             
             
             calcular(Double.parseDouble(pantalla.getText()));
             
@@ -158,11 +152,8 @@ class LaminaCalculadora extends JPanel{
                 
             }
             
-            pantalla.setText("" + resultado);
-             
-        }
-        
-        
+            pantalla.setText("" + resultado);             
+        }       
     }
     
     
@@ -177,7 +168,6 @@ class LaminaCalculadora extends JPanel{
     
     private JButton pantalla;
     
-    private boolean principio;
-    
+    private boolean principio;    
 }
  
