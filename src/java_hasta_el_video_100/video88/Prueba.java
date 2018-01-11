@@ -1,17 +1,17 @@
- 
-package java_hasta_el_video_100.video88; 
+ package java_hasta_el_video_100.video88; 
   
 import javax.swing.*;
-
 import javax.swing.event.*;
 import javax.swing.text.*;
-
+ 
+ /**
+ *
+ * @author german
+ * 
+ */
  
 public class Prueba {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         MarcoPrueba mimarco = new MarcoPrueba(); 
@@ -66,11 +66,8 @@ class LaminaPrueba extends JPanel{
             
         }
 
-
         public void changedUpdate(DocumentEvent e) {
       
         }
-        
-        
     }
 }
