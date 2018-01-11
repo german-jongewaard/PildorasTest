@@ -4,14 +4,16 @@ import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.event.*;
-
 import javax.swing.*;
  
+  /**
+ *
+ * @author german
+ * 
+ */
+ 
 public class PruebaTexto {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         MarcoTexto mimarco = new MarcoTexto(); 
