@@ -21,8 +21,7 @@ public class PruebaTexto {
         mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         //mimarco.setVisible(true);
-    }
-    
+    }    
 }
 
  class MarcoTexto extends JFrame{
@@ -37,8 +36,7 @@ public class PruebaTexto {
       
        add(milamina);
       
-       setVisible(true);
-         
+       setVisible(true);         
     }    
 }
 
@@ -76,22 +74,20 @@ class LaminaTexto extends JPanel{
         add(milamina2, BorderLayout.NORTH);
     }
     
+    
     private class DameTexto implements ActionListener{
-
        
         public void actionPerformed(ActionEvent e) {
             
             int correcto = 0;
             
-            String email = campo1.getText().trim();
-            
+            String email = campo1.getText().trim();            
             
              for(int i=0; i<email.length(); i++){
                  
                  if(email.charAt(i) == '@'){
                      
-                     correcto ++;
-                     
+                     correcto ++;                     
                  }
                  
              }
@@ -100,14 +96,10 @@ class LaminaTexto extends JPanel{
                  resultado.setText("Incorrecto");
              }else{
                 resultado.setText("Correcto");
-             }
-             
-            
+             }       
         }        
     }
     
-    private JTextField campo1;
-    
-    private JLabel resultado;
-    
+    private JTextField campo1;    
+    private JLabel resultado;    
 }
