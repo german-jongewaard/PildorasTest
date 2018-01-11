@@ -1,18 +1,16 @@
- 
-package java_hasta_el_video_100.video90;  
- 
- 
+ package java_hasta_el_video_100.video90;  
+  
 import java.awt.event.*; 
-
 import javax.swing.*;
  
-
+  /**
+ *
+ * @author german
+ * 
+ */
  
 public class EjemploArea {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         MarcoArea mimarco = new MarcoArea(); 
@@ -70,8 +68,6 @@ class LaminaArea extends JPanel{
         }
     }
     
-    JTextArea miarea;
-    
-    
+    JTextArea miarea;    
 }
  
