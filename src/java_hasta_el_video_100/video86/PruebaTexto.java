@@ -1,5 +1,4 @@
- 
-package java_hasta_el_video_100.video86; 
+ package java_hasta_el_video_100.video86; 
  
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
@@ -28,7 +27,7 @@ public class PruebaTexto {
     
     public MarcoTexto(){
         
-       setTitle("Calculadora");
+       setTitle("Comprueba email");
         
        setBounds(600, 300, 600, 350); 
        
