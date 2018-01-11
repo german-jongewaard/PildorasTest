@@ -96,8 +96,7 @@ class LaminaPassword extends JPanel{
         
         enviar.addActionListener(new Comprueba_pass());
                 
-        add(enviar, BorderLayout.SOUTH);
-        
+        add(enviar, BorderLayout.SOUTH);        
     }
     
     //Clase respetora de los eventos
@@ -107,8 +106,7 @@ class LaminaPassword extends JPanel{
         public void insertUpdate(DocumentEvent e) {
             
             char[] contrasena;        
-            contrasena = c_contrasenia.getPassword();
-            
+            contrasena = c_contrasenia.getPassword();            
                           
             if(contrasena.length < 8){                
                 
@@ -157,14 +155,14 @@ class LaminaPassword extends JPanel{
         }
 
   
-        public void changedUpdate(DocumentEvent e) {
-  
+        public void changedUpdate(DocumentEvent e) {  
         }
 
         
         public void actionPerformed(ActionEvent e) {           
             
-            char[] contrasena;        
+            char[] contrasena;      
+            
             contrasena = c_contrasenia.getPassword();            
                           
             if(contrasena.length < 8){    
