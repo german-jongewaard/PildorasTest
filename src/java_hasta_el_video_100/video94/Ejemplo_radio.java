@@ -1,21 +1,18 @@
- 
-package java_hasta_el_video_100.video94;  
-
+ package java_hasta_el_video_100.video94;  
  
 import java.awt.BorderLayout;
 import java.awt.Font;
-
 import java.awt.event.*; 
-
 import javax.swing.*;
  
-
+  /**
+ *
+ * @author german
+ * 
+ */
  
 public class Ejemplo_radio {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         Marco_radio mimarco = new Marco_radio(); 
@@ -34,14 +31,12 @@ public class Ejemplo_radio {
        
        setTitle("Probando Radio Button");
         
-       setBounds(550, 300, 500, 300); 
-       
+       setBounds(550, 300, 500, 300);        
        
        
        Lamina_radio milamina = new Lamina_radio();
        
-       add(milamina);
-       
+       add(milamina);       
     }    
 } 
 
@@ -84,8 +79,7 @@ class Lamina_radio extends JPanel{
          boton1.addActionListener(mievento);
          boton2.addActionListener(mievento);
          boton3.addActionListener(mievento);
-         boton4.addActionListener(mievento);
-         
+         boton4.addActionListener(mievento);         
          
          /*
          aqui agrego los botones uno a una a la lamina, el grupo jamas puede agregarse.
@@ -102,7 +96,6 @@ class Lamina_radio extends JPanel{
     }
     
     private class Evento_radio implements ActionListener{
-
         
         public void actionPerformed(ActionEvent e) {
 
@@ -116,14 +109,9 @@ class Lamina_radio extends JPanel{
                 texto.setFont(new Font("Serif", Font.PLAIN, 24));
             }
         }
-        
-        
     }
     
-    
-    
-    private JLabel texto;
-    
+    private JLabel texto;    
     private JRadioButton boton1, boton2, boton3, boton4;
 }
      
