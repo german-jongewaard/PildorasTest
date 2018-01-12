@@ -12,10 +12,7 @@ import javax.swing.*;
  */
  
 public class PruebaChecks {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         MarcoPruebaChecks mimarco = new MarcoPruebaChecks(); 
@@ -38,10 +35,8 @@ public class PruebaChecks {
        
        LaminaCheck milamina = new LaminaCheck();
        
-       add(milamina);
-       
-    }   
-    
+       add(milamina);       
+    }       
 } 
 
 
@@ -80,9 +75,7 @@ class LaminaCheck extends JPanel{
         
         laminachecks.add(check2);
         
-        add(laminachecks, BorderLayout.SOUTH);
-        
-        
+        add(laminachecks, BorderLayout.SOUTH);   
     }
     
     private class ManejaChecks implements ActionListener{
@@ -106,13 +99,9 @@ class LaminaCheck extends JPanel{
             //aqui cambio el texto, el valor de tipo cambia
             //de 0 a 1, 2 o 3. segun los check box pulsados
             texto.setFont(new Font("Serif", tipo, 24));
-        }
-        
+        }        
     }
     
-    private JLabel texto;
-    
-    private JCheckBox check1, check2;
-    
-    
+    private JLabel texto;    
+    private JCheckBox check1, check2;   
 }
