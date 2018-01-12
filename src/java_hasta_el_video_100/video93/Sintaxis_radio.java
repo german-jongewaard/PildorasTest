@@ -12,10 +12,7 @@ import javax.swing.*;
  */
  
 public class Sintaxis_radio {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         Marco_radio_sintaxis mimarco = new Marco_radio_sintaxis(); 
@@ -34,14 +31,12 @@ public class Sintaxis_radio {
        
        setTitle("Probando Radio Button");
         
-       setBounds(550, 300, 500, 300); 
-       
+       setBounds(550, 300, 500, 300);        
        
        
        Lamina_radio_sintaxis milamina = new Lamina_radio_sintaxis();
        
-       add(milamina);
-       
+       add(milamina);       
     }    
 } 
 
@@ -87,8 +82,7 @@ class Lamina_radio_sintaxis extends JPanel{
          
          add(boton4);
          
-         add(boton5);
-        
+         add(boton5);        
     }
 }
      
