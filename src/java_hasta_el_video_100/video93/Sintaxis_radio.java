@@ -1,14 +1,15 @@
- 
-package java_hasta_el_video_100.video93;  
+ package java_hasta_el_video_100.video93;  
 
 import java.awt.BorderLayout;
 import java.awt.Font;
-
 import java.awt.event.*; 
-
 import javax.swing.*;
  
-
+  /**
+ *
+ * @author german
+ * 
+ */
  
 public class Sintaxis_radio {
 
