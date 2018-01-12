@@ -37,21 +37,18 @@ public class PruebaArea {
       botonInsertar = new JButton("Insertar");
       
       botonInsertar.addActionListener(new ActionListener() {
-
           
-           public void actionPerformed(ActionEvent e) {
-         
-               areaTexto.append("En un lugar de la mancha de cuyo nombre no quiero acordarme... ");
-               
-           }
-       });
+    public void actionPerformed(ActionEvent e) {
+
+            areaTexto.append("En un lugar de la mancha de cuyo nombre no quiero acordarme... ");               
+        }
+    });
       //aqui agrego el Boton a la lamina!
       laminaBotones.add(botonInsertar);
       
       botonSaltoLinea = new JButton("Salto línea");
       
       botonSaltoLinea.addActionListener(new ActionListener() {
-
        
            public void actionPerformed(ActionEvent e) {
 
@@ -80,12 +77,9 @@ public class PruebaArea {
         add(laminaConBarras, BorderLayout.CENTER);
       
     }  
-    private JPanel laminaBotones;
     
-    private JButton botonInsertar, botonSaltoLinea;
-    
-    private JTextArea areaTexto;
-    
-    private JScrollPane laminaConBarras;
-    
+    private JPanel laminaBotones;    
+    private JButton botonInsertar, botonSaltoLinea;    
+    private JTextArea areaTexto;    
+    private JScrollPane laminaConBarras;    
 } 
