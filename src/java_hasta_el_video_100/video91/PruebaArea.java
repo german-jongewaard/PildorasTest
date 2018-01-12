@@ -1,19 +1,17 @@
- 
-package java_hasta_el_video_100.video91;  
- 
- 
+ package java_hasta_el_video_100.video91;  
+  
 import java.awt.BorderLayout;
 import java.awt.event.*; 
-
 import javax.swing.*;
  
-
+  /**
+ *
+ * @author german
+ * 
+ */
  
 public class PruebaArea {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         MarcoPruebaArea mimarco = new MarcoPruebaArea(); 
