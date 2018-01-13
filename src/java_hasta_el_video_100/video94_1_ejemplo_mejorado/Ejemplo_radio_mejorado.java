@@ -1,12 +1,8 @@
- 
-package java_hasta_el_video_100.video94_1_ejemplo_mejorado;  
-
+ package java_hasta_el_video_100.video94_1_ejemplo_mejorado;  
  
 import java.awt.BorderLayout;
 import java.awt.Font;
-
 import java.awt.event.*; 
-
 import javax.swing.*;
  
 
