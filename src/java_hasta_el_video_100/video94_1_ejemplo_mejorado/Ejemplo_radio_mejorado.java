@@ -31,14 +31,11 @@ public class Ejemplo_radio_mejorado {
        
        setTitle("Probando Radio Button");
         
-       setBounds(550, 300, 500, 300); 
-       
-       
+       setBounds(550, 300, 500, 300);        
        
        Lamina_radio milamina = new Lamina_radio();
        
-       add(milamina);
-       
+       add(milamina);       
     }    
 } 
 
@@ -96,8 +93,7 @@ class Lamina_radio extends JPanel{
             
         };
         
-        boton.addActionListener(mievento);
-        
+        boton.addActionListener(mievento);        
     }
      
     //variables de CLASE
