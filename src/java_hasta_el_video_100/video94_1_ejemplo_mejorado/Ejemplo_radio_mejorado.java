@@ -5,13 +5,14 @@ import java.awt.Font;
 import java.awt.event.*; 
 import javax.swing.*;
  
-
+ /**
+ *
+ * @author german
+ * 
+ */
  
 public class Ejemplo_radio_mejorado {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         Marco_radio mimarco = new Marco_radio(); 
