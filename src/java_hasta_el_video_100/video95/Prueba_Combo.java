@@ -75,13 +75,10 @@ class Lamina_combo extends JPanel{
         public void actionPerformed(ActionEvent e) {
                         //Hago un Casting para que mi combo se convierta en String
             texto.setFont(new Font((String)micombo.getSelectedItem(), Font.PLAIN, 18));
-        }
-        
-        
+        }       
     }
     
-    private JLabel texto;
-    
+    private JLabel texto;    
     private JComboBox micombo;
 }
      
