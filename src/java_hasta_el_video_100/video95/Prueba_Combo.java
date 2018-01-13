@@ -5,13 +5,14 @@ import java.awt.Font;
 import java.awt.event.*; 
 import javax.swing.*;
  
-
+ /**
+ *
+ * @author german
+ * 
+ */
  
 public class Prueba_Combo {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         Marco_combo mimarco = new Marco_combo(); 
@@ -34,8 +35,7 @@ public class Prueba_Combo {
        
        Lamina_combo milamina = new Lamina_combo();
        
-       add(milamina);
-       
+       add(milamina);       
     }    
 } 
 
