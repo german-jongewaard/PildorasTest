@@ -1,21 +1,18 @@
- 
-package java_hasta_el_video_100.video96;   
+ package java_hasta_el_video_100.video96;   
  
 import java.awt.BorderLayout;
-
 import java.awt.Font;
-
 import java.awt.event.*; 
-
 import javax.swing.*;
  
-
+  /**
+ *
+ * @author german
+ * 
+ */
  
 public class MarcoSliders {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         Frame_sliders mimarco = new Frame_sliders(); 
@@ -38,8 +35,7 @@ public class MarcoSliders {
        
        add(milamina);
        
-       setVisible(true);
-       
+       setVisible(true);       
     }    
 } 
 
@@ -47,8 +43,7 @@ class Lamina_Sliders extends JPanel{
     public Lamina_Sliders(){
           
         /* Asi quedaria en vertical! 
-         JSlider control = new JSlider(SwingConstants.VERTICAL, 0, 100, 50);
-        
+         JSlider control = new JSlider(SwingConstants.VERTICAL, 0, 100, 50);        
         */
         JSlider control = new JSlider(0, 100, 50);
         
@@ -62,8 +57,7 @@ class Lamina_Sliders extends JPanel{
         //cambio la fuente de los numeros
         control.setFont(new Font("Serif", Font.ITALIC, 12));
         //funciona como un Iman y se coloca en la LINEA!
-        control.setSnapToTicks(true);
-         
+        control.setSnapToTicks(true);         
         
         add(control);
         }    
