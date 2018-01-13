@@ -56,12 +56,9 @@ class Lamina_combo extends JPanel{
         
         micombo.setEditable(true);
         
-        micombo.addItem("Serif");        
-        
+        micombo.addItem("Serif");
         micombo.addItem("SansSerif");
-        
-        micombo.addItem("Monospaced");        
-        
+        micombo.addItem("Monospaced");
         micombo.addItem("Dialog");
         
         Evento_combo mievento = new Evento_combo();
@@ -70,12 +67,10 @@ class Lamina_combo extends JPanel{
         
         lamina_norte.add(micombo);
         
-        add(lamina_norte, BorderLayout.NORTH); 
-         
+        add(lamina_norte, BorderLayout.NORTH);          
     } 
     
     private class Evento_combo implements ActionListener{
-
          
         public void actionPerformed(ActionEvent e) {
                         //Hago un Casting para que mi combo se convierta en String
