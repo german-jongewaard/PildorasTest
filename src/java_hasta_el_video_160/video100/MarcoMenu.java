@@ -11,9 +11,6 @@ import javax.swing.*;
  
 public class MarcoMenu {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         MenuFrame mimarco = new MenuFrame(); 
@@ -36,8 +33,7 @@ public class MarcoMenu {
        
        add(milamina);
        
-       setVisible(true);
-       
+       setVisible(true);       
     }    
 } 
 
@@ -103,9 +99,7 @@ class MenuLamina extends JPanel{
         mibarra.add(herramientas);
         
         add(mibarra);
-
     }
-
 }
  
      
