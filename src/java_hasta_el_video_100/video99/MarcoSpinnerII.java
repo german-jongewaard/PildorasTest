@@ -10,10 +10,7 @@ import javax.swing.*;
  */
  
 public class MarcoSpinnerII {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         Frame_Spinner mimarco = new Frame_Spinner(); 
@@ -36,8 +33,7 @@ public class MarcoSpinnerII {
        
        add(milamina);
        
-       setVisible(true);
-       
+       setVisible(true);       
     }    
 } 
 
@@ -45,8 +41,7 @@ class Lamina_Spinner extends JPanel{
     
     public Lamina_Spinner(){ 
         
-        //JSpinner control = new JSpinner(new MiModeloJspinner(){
-            
+        //JSpinner control = new JSpinner(new MiModeloJspinner(){            
         JSpinner control = new JSpinner(new SpinnerNumberModel(){
             
               public Object getNextValue(){
