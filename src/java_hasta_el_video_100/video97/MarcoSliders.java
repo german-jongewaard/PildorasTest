@@ -75,21 +75,16 @@ class Lamina_Sliders extends JPanel{
     }    
     
     private class EventoSlider implements ChangeListener{
-
         
         public void stateChanged(ChangeEvent e) { 
              
            // System.out.println("estas manipulando el deslizante" + control.getValue());
             
-            rotulo.setFont(new Font("Serif", Font.PLAIN, control.getValue()));
-            
-        }
-        
+            rotulo.setFont(new Font("Serif", Font.PLAIN, control.getValue()));            
+        }        
     }
         
-    private JLabel rotulo;
-    
-    private JSlider control; 
-    
-    } 
+    private JLabel rotulo;    
+    private JSlider control;     
+} 
      
