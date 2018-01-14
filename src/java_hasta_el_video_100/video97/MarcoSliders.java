@@ -2,14 +2,15 @@
 
 import java.awt.BorderLayout;
 import java.awt.Font;
-
 import java.awt.event.*; 
-
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
  
-
+ /**
+ *
+ * @author german
+ */
  
 public class MarcoSliders {
 
