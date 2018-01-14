@@ -1,9 +1,13 @@
  package java_hasta_el_video_100.video99; 
  
 import java.awt.Dimension; 
-
 import javax.swing.*; 
 
+ /**
+ *
+ * @author german
+ *  
+ */
  
 public class MarcoSpinnerII {
 
