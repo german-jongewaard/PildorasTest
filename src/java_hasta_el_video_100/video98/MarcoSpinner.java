@@ -16,10 +16,7 @@ import javax.swing.event.ChangeListener;
  */
  
 public class MarcoSpinner {
-
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
         // TODO code application logic here
         Frame_Spinner mimarco = new Frame_Spinner(); 
