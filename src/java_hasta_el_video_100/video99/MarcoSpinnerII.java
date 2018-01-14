@@ -1,6 +1,4 @@
- 
-package java_hasta_el_video_100.video99;   
-  
+ package java_hasta_el_video_100.video99; 
  
 import java.awt.Dimension; 
 
