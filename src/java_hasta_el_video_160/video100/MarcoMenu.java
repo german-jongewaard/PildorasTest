@@ -1,8 +1,6 @@
- 
-package java_hasta_el_video_160.video100;     
+ package java_hasta_el_video_160.video100;     
  
 import java.awt.Dimension; 
-
 import javax.swing.*; 
 
  
