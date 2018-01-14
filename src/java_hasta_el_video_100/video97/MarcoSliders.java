@@ -10,6 +10,7 @@ import javax.swing.event.ChangeListener;
  /**
  *
  * @author german
+ *  
  */
  
 public class MarcoSliders {
