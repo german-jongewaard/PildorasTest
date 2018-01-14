@@ -55,10 +55,8 @@ class Lamina_Spinner extends JPanel{
             }            
         });
         
-        Dimension d = new Dimension(200, 20);
-        
-        control.setPreferredSize(d); 
-        
+        Dimension d = new Dimension(200, 20);        
+        control.setPreferredSize(d);         
         add(control);  
         
         }
