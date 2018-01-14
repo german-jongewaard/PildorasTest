@@ -44,16 +44,15 @@ class Lamina_Spinner extends JPanel{
         //JSpinner control = new JSpinner(new MiModeloJspinner(){            
         JSpinner control = new JSpinner(new SpinnerNumberModel(){
             
-              public Object getNextValue(){
-                
+            public Object getNextValue(){
+
                 return super.getPreviousValue();
             } 
             
             public Object getPreviousValue(){
                 
                 return super.getNextValue(); 
-            }
-            
+            }            
         });
         
         Dimension d = new Dimension(200, 20);
