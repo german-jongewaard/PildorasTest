@@ -39,8 +39,7 @@ public class MarcoSpinner {
        
        add(milamina);
        
-       setVisible(true);
-       
+       setVisible(true);       
     }    
 } 
 
@@ -51,8 +50,7 @@ class Lamina_Spinner extends JPanel{
        // String lista[]={"enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"};
         //Con esto llamo a todas las fuentes / tipo de letras en "lista"
          String lista[]=GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames();
-         
-        
+                 
         //JSpinner control = new JSpinner(new SpinnerDateModel());
         
         //JSpinner control = new JSpinner(new SpinnerListModel(lista));
@@ -63,17 +61,6 @@ class Lamina_Spinner extends JPanel{
         
         control.setPreferredSize(d);
         
-        
-        
-        add(control);
-        
-        
-        
-        
-        
-        
-        }
-   
-    
-    } 
-     
+        add(control);        
+    }  
+} 
