@@ -13,10 +13,7 @@ import javax.swing.event.ChangeListener;
  */
  
 public class MarcoSliders {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         Frame_sliders mimarco = new Frame_sliders(); 
@@ -39,8 +36,7 @@ public class MarcoSliders {
        
        add(milamina);
        
-       setVisible(true);
-       
+       setVisible(true);       
     }    
 } 
 
@@ -76,7 +72,7 @@ class Lamina_Sliders extends JPanel{
         
         add(laminaSlider, BorderLayout.NORTH);
        // add(control);
-        }    
+    }    
     
     private class EventoSlider implements ChangeListener{
 
