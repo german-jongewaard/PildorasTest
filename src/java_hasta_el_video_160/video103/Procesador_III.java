@@ -100,11 +100,7 @@ class LaminaProcesador extends JPanel{
             tamagno.add(elem_menu);
         }        
         //Pongo A LA ESCUCHA a los elementos del menu!
-        elem_menu.addActionListener(new Gestiona_Eventos(rotulo, tipo_letra, estilos, tam));
-        
-        
-        
-        
+        elem_menu.addActionListener(new Gestiona_Eventos(rotulo, tipo_letra, estilos, tam));        
     }
     
     private class Gestiona_Eventos implements ActionListener{
