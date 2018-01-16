@@ -110,14 +110,10 @@ class LaminaProcesador extends JPanel{
         
         Gestiona_Eventos(String elemento, String texto2, int estilo2, int tam_letra){
             
-            tipo_texto=texto2;
-            
-            estilo_letra = estilo2;
-            
-            tamagno_letra = tam_letra;
-            
-            menu = elemento;
-            
+            tipo_texto=texto2;            
+            estilo_letra = estilo2;            
+            tamagno_letra = tam_letra;            
+            menu = elemento;            
         }
         
         @Override
