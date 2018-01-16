@@ -148,19 +148,12 @@ class LaminaProcesador extends JPanel{
          
         //miarea.setFont(new Font("Arial", Font.BOLD, 14));
           miarea.setFont(new Font(tipo_texto, estilo_letra, tamagno_letra)); 
-         
-         
-         
-         
-        }
-        
-    }
-    
+        }        
+    }    
     
     JTextPane miarea; 
     JMenu fuente, estilo, tamagno;
-    Font letras;
-    
+    Font letras;    
 }
  
      
