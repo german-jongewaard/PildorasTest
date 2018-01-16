@@ -13,9 +13,6 @@ import javax.swing.*;
  
 public class Procesador_II {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         MenuProcesador_II mimarco = new MenuProcesador_II(); 
@@ -38,8 +35,7 @@ public class Procesador_II {
        
        add(milamina);
        
-       setVisible(true);
-       
+       setVisible(true);       
     }    
 } 
 
