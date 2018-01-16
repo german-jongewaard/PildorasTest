@@ -1,12 +1,8 @@
- 
-package java_hasta_el_video_100.video101;     
+package java_hasta_el_video_160.video101;     
  
 import java.awt.BorderLayout;
-
 import java.awt.Font;
-
 import java.awt.event.*;
-
 import javax.swing.*; 
 
  
