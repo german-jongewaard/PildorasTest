@@ -1,5 +1,5 @@
  
-package video106;     
+package java_hasta_el_video_160.video106;     
  
  
 import java.awt.BorderLayout;
