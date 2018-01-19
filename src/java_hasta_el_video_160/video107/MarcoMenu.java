@@ -65,12 +65,12 @@ class MenuLamina extends JPanel{
         JMenuItem pegar = new JMenuItem("Pegar", new ImageIcon("src/java_hasta_el_video_160/video107/graficos/pegar.gif"));
         
         /* Sub-Menu de Herramientas */        
-        JMenuItem generales = new JMenuItem("Generales");
+        JMenuItem generales = new JMenuItem("Generales", new ImageIcon("src/java_hasta_el_video_160/video107/graficos/tools.gif"));
         
         /* Sub-Menu del Sub-menú de Edicion */
-        JMenuItem opcion1 = new JMenuItem("Opcion1");
+        JMenuItem opcion1 = new JMenuItem("Opcion1", new ImageIcon("src/java_hasta_el_video_160/video107/graficos/negrita.gif"));
         
-        JMenuItem opcion2 = new JMenuItem("Opcion2");
+        JMenuItem opcion2 = new JMenuItem("Opcion2", new ImageIcon("src/java_hasta_el_video_160/video107/graficos/negrita1.gif"));
         
         /* Aparecen segun su ORDEN!!! */  
         /* Sub menu opciones */   
