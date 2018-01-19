@@ -92,16 +92,11 @@ class MenuLamina extends JPanel{
         /* Herramientas */ 
         herramientas.add(generales);
         
-        mibarra.add(archivo);
-        
-        mibarra.add(edicion);
-        
-        mibarra.add(herramientas);
-        
+        mibarra.add(archivo);        
+        mibarra.add(edicion);        
+        mibarra.add(herramientas);        
         add(mibarra);
-
     }
-
 }
  
      
