@@ -61,8 +61,8 @@ class LaminaProcesador extends JPanel{
         configura_menu("Calibri", "fuente", "Calibri",1,1, "");
         configura_menu("Verdana", "fuente", "Verdana",1,1, "");
         //---------------------------------------------------------
-        configura_menu("Negrita", "estilo","", Font.BOLD,1, "src/video107_1/graficos/negrita.gif");
-        configura_menu("Cursiva", "estilo","", Font.ITALIC,1, "src/video107_1/graficos/cursiva.gif"); 
+        configura_menu("Negrita", "estilo","", Font.BOLD,1, "src/java_hasta_el_video_160/video107_1/graficos/negrita.gif");
+        configura_menu("Cursiva", "estilo","", Font.ITALIC,1, "src/java_hasta_el_video_160/video107_1/graficos/cursiva.gif"); 
         //---------------------------------------------------------
         configura_menu("12", "tamaño","",1, 12, "");
         configura_menu("16", "tamaño","",1, 16, "");
@@ -74,8 +74,7 @@ class LaminaProcesador extends JPanel{
         /*Aqui agrego los botones a la barra*/
         mi_barra.add(fuente);        
         mi_barra.add(estilo);        
-        mi_barra.add(tamagno);
-        
+        mi_barra.add(tamagno);        
         
         /*Aqui agrego la barra a la LAMINA*/
         lamina_menu.add(mi_barra);
