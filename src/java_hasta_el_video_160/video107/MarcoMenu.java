@@ -53,9 +53,9 @@ class MenuLamina extends JPanel{
         JMenu opciones = new JMenu("Opciones");
         
         /* Sub-Menu de Archivo */        
-        JMenuItem guardar = new JMenuItem("Guardar");
+        JMenuItem guardar = new JMenuItem("Guardar", new ImageIcon("src/java_hasta_el_video_160/video107/graficos/guardar.gif"));
         
-        JMenuItem guardar_como = new JMenuItem("Guardar como");
+        JMenuItem guardar_como = new JMenuItem("Guardar como", new ImageIcon("src/java_hasta_el_video_160/video107/graficos/guardar.gif"));
         
         /* Sub-Menu de Edición */        
         JMenuItem cortar = new JMenuItem("Cortar", new ImageIcon("src/java_hasta_el_video_160/video107/graficos/cortar.gif"));
