@@ -15,9 +15,6 @@ import javax.swing.text.StyledEditorKit;
 
 public class MarcoMenuNuevo {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         MenuProcesador_III mimarco = new MenuProcesador_III(); 
@@ -40,8 +37,7 @@ public class MarcoMenuNuevo {
        
        add(milamina);
        
-       setVisible(true);
-       
+       setVisible(true);       
     }    
 } 
 
@@ -50,8 +46,7 @@ class LaminaProcesador extends JPanel{
     public LaminaProcesador(){ 
      
         setLayout(new BorderLayout());        
-        JPanel lamina_menu = new JPanel();
-        
+        JPanel lamina_menu = new JPanel();        
         //---------------------------------------------------------
         /*Aqui creo la barra*/
         JMenuBar mi_barra = new JMenuBar(); 
