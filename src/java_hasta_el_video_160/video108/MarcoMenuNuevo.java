@@ -1,6 +1,4 @@
- 
-package video108;     
- 
+package java_hasta_el_video_160.video108;      
  
 import java.awt.BorderLayout;
 import java.awt.Font;
@@ -8,6 +6,12 @@ import java.awt.event.*;
 import javax.swing.*; 
 import javax.swing.text.*; 
 import javax.swing.text.StyledEditorKit;
+
+/**
+ *
+ * @author german
+ *  
+ */
  
 public class MarcoMenuNuevo {
 
