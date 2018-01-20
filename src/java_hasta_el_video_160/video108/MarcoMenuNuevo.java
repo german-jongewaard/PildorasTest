@@ -29,14 +29,10 @@ public class MarcoMenuNuevo {
     
     public MenuProcesador_III(){
         
-       setTitle("Probando Menu's");
-        
-       setBounds(500, 300, 550, 400);  
-       
-       LaminaProcesador milamina = new LaminaProcesador();
-       
-       add(milamina);
-       
+       setTitle("Probando Menu's");        
+       setBounds(500, 300, 550, 400);         
+       LaminaProcesador milamina = new LaminaProcesador();       
+       add(milamina);       
        setVisible(true);       
     }    
 } 
@@ -87,12 +83,9 @@ class LaminaProcesador extends JPanel{
         */
         ButtonGroup tamagno_letra = new ButtonGroup();
         
-        JRadioButtonMenuItem doce = new JRadioButtonMenuItem("12");
-        
-        JRadioButtonMenuItem dieciseis = new JRadioButtonMenuItem("16");
-        
-        JRadioButtonMenuItem veinte = new JRadioButtonMenuItem("20");
-        
+        JRadioButtonMenuItem doce = new JRadioButtonMenuItem("12");        
+        JRadioButtonMenuItem dieciseis = new JRadioButtonMenuItem("16");        
+        JRadioButtonMenuItem veinte = new JRadioButtonMenuItem("20");        
         JRadioButtonMenuItem veinticuatro = new JRadioButtonMenuItem("24");
         
         veinticuatro.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, InputEvent.CTRL_DOWN_MASK));
