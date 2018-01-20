@@ -173,6 +173,7 @@ class LaminaProcesador extends JPanel{
                  elem_menu.addActionListener(new StyledEditorKit.FontFamilyAction("cambia_letra", "Verdana"));
             
             } 
+            
          }else if (menu=="estilo"){
             
             estilo.add(elem_menu);
@@ -182,6 +183,7 @@ class LaminaProcesador extends JPanel{
                 elem_menu.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_N, InputEvent.CTRL_DOWN_MASK));
                 
                 elem_menu.addActionListener(new StyledEditorKit.BoldAction());
+                
             }else if (estilos == Font.ITALIC){
                 
                 elem_menu.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_K, InputEvent.CTRL_DOWN_MASK));
