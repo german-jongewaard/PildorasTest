@@ -29,16 +29,11 @@ public class MarcoMEmergente {
     
     public MenuProcesador_III(){
         
-       setTitle("Probando PopUp Menu");
-        
-       setBounds(500, 300, 300, 250);  
-       
-       LaminaEmergenteM milamina = new LaminaEmergenteM();
-       
-       add(milamina);
-       
-       setVisible(true);
-       
+       setTitle("Probando PopUp Menu");        
+       setBounds(500, 300, 300, 250);         
+       LaminaEmergenteM milamina = new LaminaEmergenteM();       
+       add(milamina);       
+       setVisible(true);       
     }    
 } 
 
