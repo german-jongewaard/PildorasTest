@@ -78,11 +78,8 @@ class LaminaEmergenteM extends JPanel{
         emergente.add(opcion2);        
         emergente.add(opcion3);
         
-        miarea.setComponentPopupMenu(emergente);
-        
-      
-    }
-     
+        miarea.setComponentPopupMenu(emergente);  
+    }     
 }
  
      
