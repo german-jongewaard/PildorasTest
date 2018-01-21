@@ -62,8 +62,7 @@ class LaminaEmergenteM extends JPanel{
         
         JTextPane miarea = new JTextPane(); 
         
-        add(miarea);
-        
+        add(miarea);        
         
         /* -------------------------------------------------  */
         
@@ -75,11 +74,9 @@ class LaminaEmergenteM extends JPanel{
          
         JMenuItem opcion3 = new JMenuItem("Opción 3");
         
-        emergente.add(opcion1);
-        
-        emergente.add(opcion2);
-        
-        emergente.add(opcion3   );
+        emergente.add(opcion1);        
+        emergente.add(opcion2);        
+        emergente.add(opcion3);
         
         miarea.setComponentPopupMenu(emergente);
         
