@@ -11,13 +11,9 @@ public class Barra_Herramientas {
             // TODO Auto-generated method stub
 
             Marco_Barra mimarco=new Marco_Barra();
-
             mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
             mimarco.setVisible(true);
-
     }
-
 }
 
 class Marco_Barra extends JFrame{
