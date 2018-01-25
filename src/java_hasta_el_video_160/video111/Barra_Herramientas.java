@@ -55,10 +55,8 @@ class Marco_Barra extends JFrame{
             //Construcción de la barra de herramientas
             JToolBar barra = new JToolBar();
             
-            barra.add(accionAzul);
-            
-            barra.add(accionAmarillo);
-            
+            barra.add(accionAzul);            
+            barra.add(accionAmarillo);            
             barra.add(accionRojo);
             
             //Separador
