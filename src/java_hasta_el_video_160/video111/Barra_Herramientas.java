@@ -31,11 +31,10 @@ class Marco_Barra extends JFrame{
             // configuración de acciones
 
             Action accionAzul=new AccionColor("Azul", new ImageIcon("src/java_hasta_el_video_160/video111/imagenes/azul.gif"), Color.BLUE);
-            Action accionAmarillo=new AccionColor("Amarillo", new ImageIcon("src/video111/imagenes/amarilla.gif"), Color.YELLOW);
-
+            Action accionAmarillo=new AccionColor("Amarillo", new ImageIcon("src/java_hasta_el_video_160/video111/imagenes/amarilla.gif"), Color.YELLOW);
             Action accionRojo=new AccionColor("Rojo", new ImageIcon("src/video111/imagenes/roja.gif"), Color.RED);
             
-            Action accionSalir = new AbstractAction("Rojo", new ImageIcon("src/video111/imagenes/salir.gif")) {
+            Action accionSalir = new AbstractAction("Rojo", new ImageIcon("src/java_hasta_el_video_160/video111/imagenes/salir.gif")) {
                  
                 public void actionPerformed(ActionEvent e) {
                     System.exit(0);
