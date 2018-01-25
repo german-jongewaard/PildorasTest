@@ -5,16 +5,11 @@ import java.awt.Event.*;
 import java.awt.event.ActionEvent;
 import javax.swing.*;
 
-
-
 /**
  *
  * @author german
  *  
  */
-
-
-
 
 public class Barra_Herramientas {
 
