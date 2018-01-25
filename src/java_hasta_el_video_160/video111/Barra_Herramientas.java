@@ -86,9 +86,7 @@ class Marco_Barra extends JFrame{
                     Color c=(Color) getValue("Color");
 
                     lamina.setBackground(c);
-
             }		
-
     }
     private JPanel lamina;
 }
