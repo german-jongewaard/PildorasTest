@@ -32,8 +32,7 @@ class Marco_Barra extends JFrame{
 
             Action accionAzul=new AccionColor("Azul", new ImageIcon("src/java_hasta_el_video_160/video111/imagenes/azul.gif"), Color.BLUE);
             Action accionAmarillo=new AccionColor("Amarillo", new ImageIcon("src/java_hasta_el_video_160/video111/imagenes/amarilla.gif"), Color.YELLOW);
-            Action accionRojo=new AccionColor("Rojo", new ImageIcon("src/video111/imagenes/roja.gif"), Color.RED);
-            
+            Action accionRojo=new AccionColor("Rojo", new ImageIcon("src/java_hasta_el_video_160/video111/imagenes/roja.gif"), Color.RED);            
             Action accionSalir = new AbstractAction("Rojo", new ImageIcon("src/java_hasta_el_video_160/video111/imagenes/salir.gif")) {
                  
                 public void actionPerformed(ActionEvent e) {
@@ -43,10 +42,8 @@ class Marco_Barra extends JFrame{
 
             JMenu menu = new JMenu("Color");
             
-            menu.add(accionAzul);
-            
-            menu.add(accionAmarillo);
-            
+            menu.add(accionAzul);            
+            menu.add(accionAmarillo);            
             menu.add(accionRojo);
             
             JMenuBar barra_menus = new JMenuBar();
