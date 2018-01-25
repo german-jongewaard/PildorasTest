@@ -1,12 +1,9 @@
-
-package video111; 
+package java_hasta_el_video_160.video111; 
 
 import java.awt.*;
 import java.awt.Event.*;
 import java.awt.event.ActionEvent;
-
 import javax.swing.*;
-
 
 public class Barra_Herramientas {
 
