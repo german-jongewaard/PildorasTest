@@ -66,22 +66,16 @@ class Marco_Barra extends JFrame{
             
             //Aqui coloco la barra y la posiciono arriba
             add(barra, BorderLayout.NORTH);
-            
-            
-            
-
     }
+    
    //Clase interna
     private class AccionColor extends AbstractAction{
 
             public AccionColor(String nombre, Icon icono, Color c){
 
                     putValue(Action.NAME, nombre);
-
                     putValue(Action.SMALL_ICON, icono);
-
                     putValue(Action.SHORT_DESCRIPTION, "Color de fondo..." + nombre);
-
                     putValue("Color", c);
             }
 
