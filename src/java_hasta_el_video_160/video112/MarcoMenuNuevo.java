@@ -52,7 +52,7 @@ class LaminaProcesador extends JPanel{
         configura_menu("Calibri", "fuente", "Calibri",1,1, "");
         configura_menu("Verdana", "fuente", "Verdana",1,1, "");
         //---------------------------------------------------------
-        configura_menu("Negrita", "estilo","", Font.BOLD,1, "src/video112/graficos/negrita.gif");
+        configura_menu("Negrita", "estilo","", Font.BOLD,1, "src/java_hasta_el_video_160/video112/graficos/negrita.gif");
         configura_menu("Cursiva", "estilo","", Font.ITALIC,1, "src/video112/graficos/cursiva.gif"); 
      
         //---------------------------------------------------------
