@@ -5,13 +5,9 @@ import java.awt.Font;
 import java.awt.event.*;
 import javax.swing.*; 
 import javax.swing.text.*; 
-
  
 public class MarcoMenuNuevo {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         MenuProcesador_III mimarco = new MenuProcesador_III(); 
