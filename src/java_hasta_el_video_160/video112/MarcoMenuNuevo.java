@@ -1,6 +1,4 @@
- 
-package java_hasta_el_video_160.video112;     
- 
+package java_hasta_el_video_160.video112;      
  
 import java.awt.BorderLayout;
 import java.awt.Font;
