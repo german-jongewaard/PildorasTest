@@ -148,11 +148,11 @@ class LaminaProcesador extends JPanel{
         //Barra de Herramientas
         JToolBar barra = new JToolBar();
         
-        JButton negritaBarra = new JButton(new ImageIcon("src/video112/graficos/negrita.gif"));
+        JButton negritaBarra = new JButton(new ImageIcon("src/java_hasta_el_video_160/video112/graficos/negrita.gif"));
         
-        JButton cursivaBarra = new JButton(new ImageIcon("src/video112/graficos/cursiva.gif"));
+        JButton cursivaBarra = new JButton(new ImageIcon("src/java_hasta_el_video_160/video112/graficos/cursiva.gif"));
         
-        JButton subrayaBarra = new JButton(new ImageIcon("src/video112/graficos/subrayado.gif"));
+        JButton subrayaBarra = new JButton(new ImageIcon("src/java_hasta_el_video_160/video112/graficos/subrayado.gif"));
         
         //aqui pongo los elementos a la ESCUCHA, para que funcionen en la barra.
         negritaBarra.addActionListener(new StyledEditorKit.BoldAction());        
@@ -167,9 +167,7 @@ class LaminaProcesador extends JPanel{
         barra.setOrientation(1);
         
         //ahora coloco la barra de herramientas en el panel!
-        add(barra, BorderLayout.WEST);
-        
-        
+        add(barra, BorderLayout.WEST);      
     }
     
     public void configura_menu (String rotulo, String menu, String tipo_letra, int estilos, int tam, String ruta_icono){
@@ -219,8 +217,7 @@ class LaminaProcesador extends JPanel{
       
     JTextPane miarea; 
     JMenu edicion, fuente, estilo, tamagno, linea;
-    Font letras;
-    
+    Font letras;    
 }
  
      
