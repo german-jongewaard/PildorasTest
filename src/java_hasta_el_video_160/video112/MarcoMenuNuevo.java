@@ -22,16 +22,11 @@ public class MarcoMenuNuevo {
     
     public MenuProcesador_III(){
         
-       setTitle("Barra de Herramientas II");
-        
-       setBounds(500, 300, 550, 400);  
-       
-       LaminaProcesador milamina = new LaminaProcesador();
-       
-       add(milamina);
-       
-       setVisible(true);
-       
+       setTitle("Barra de Herramientas II");        
+       setBounds(500, 300, 550, 400);         
+       LaminaProcesador milamina = new LaminaProcesador();       
+       add(milamina);       
+       setVisible(true);       
     }    
 } 
 
