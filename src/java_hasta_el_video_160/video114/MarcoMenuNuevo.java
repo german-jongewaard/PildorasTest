@@ -143,8 +143,8 @@ class LaminaProcesador extends JPanel{
     
         barra = new JToolBar();
         
-        configura_barra("src/video114/graficos/negrita.gif").addActionListener(new StyledEditorKit.BoldAction());  
-        configura_barra("src/video114/graficos/cursiva.gif").addActionListener(new StyledEditorKit.ItalicAction());
+        configura_barra("src/java_hasta_el_video_160/video114/graficos/negrita.gif").addActionListener(new StyledEditorKit.BoldAction());  
+        configura_barra("src/java_hasta_el_video_160/video114/graficos/cursiva.gif").addActionListener(new StyledEditorKit.ItalicAction());
         configura_barra("src/video114/graficos/subrayado.gif").addActionListener(new StyledEditorKit.UnderlineAction());
         
         configura_barra("src/video114/graficos/azul.gif").addActionListener(new StyledEditorKit.ForegroundAction("Pone_azul", Color.BLUE));
