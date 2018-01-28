@@ -17,10 +17,8 @@ public class MarcoMenuNuevo {
     
     public static void main(String[] args) {
         // TODO code application logic here
-        MenuProcesador_III mimarco = new MenuProcesador_III(); 
-        
-        mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);          
-        
+        MenuProcesador_III mimarco = new MenuProcesador_III();         
+        mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
         mimarco.setVisible(true); 
     }    
 }
