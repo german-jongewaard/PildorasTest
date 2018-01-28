@@ -80,12 +80,9 @@ class LaminaProcesador extends JPanel{
         
         ButtonGroup tamagno_letra = new ButtonGroup();
         
-        JRadioButtonMenuItem doce = new JRadioButtonMenuItem("12");
-        
-        JRadioButtonMenuItem dieciseis = new JRadioButtonMenuItem("16");
-        
-        JRadioButtonMenuItem veinte = new JRadioButtonMenuItem("20");
-        
+        JRadioButtonMenuItem doce = new JRadioButtonMenuItem("12");        
+        JRadioButtonMenuItem dieciseis = new JRadioButtonMenuItem("16");        
+        JRadioButtonMenuItem veinte = new JRadioButtonMenuItem("20");        
         JRadioButtonMenuItem veinticuatro = new JRadioButtonMenuItem("24");
         
         veinticuatro.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, InputEvent.CTRL_DOWN_MASK));
