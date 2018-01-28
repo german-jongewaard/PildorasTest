@@ -95,12 +95,9 @@ class LaminaProcesador extends JPanel{
         tamagno_letra.add(veinte);
         tamagno_letra.add(veinticuatro);
         
-       doce.addActionListener(new StyledEditorKit.FontSizeAction("cambia_tamaño", 12));
-       
-       dieciseis.addActionListener(new StyledEditorKit.FontSizeAction("cambia_tamaño", 16));
-       
-       veinte.addActionListener(new StyledEditorKit.FontSizeAction("cambia_tamaño", 20));
-       
+       doce.addActionListener(new StyledEditorKit.FontSizeAction("cambia_tamaño", 12));       
+       dieciseis.addActionListener(new StyledEditorKit.FontSizeAction("cambia_tamaño", 16));       
+       veinte.addActionListener(new StyledEditorKit.FontSizeAction("cambia_tamaño", 20));       
        veinticuatro.addActionListener(new StyledEditorKit.FontSizeAction("cambia_tamaño", 24));
        
        tamagno.add(doce);
