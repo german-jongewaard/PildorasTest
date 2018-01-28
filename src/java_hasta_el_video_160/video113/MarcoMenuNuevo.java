@@ -63,11 +63,11 @@ class LaminaProcesador extends JPanel{
         //---------------------------------------------------------
         
          /* Sub-Menu de Edición */        
-        JMenuItem cortar = new JMenuItem("Cortar", new ImageIcon("src/video112/graficos/cortar.gif"));
+        JMenuItem cortar = new JMenuItem("Cortar", new ImageIcon("src/java_hasta_el_video_160/video112/graficos/cortar.gif"));
         
-        JMenuItem copiar = new JMenuItem("Copiar", new ImageIcon("src/video112/graficos/copiar.gif"));
+        JMenuItem copiar = new JMenuItem("Copiar", new ImageIcon("src/java_hasta_el_video_160/video112/graficos/copiar.gif"));
         
-        JMenuItem pegar = new JMenuItem("Pegar", new ImageIcon("src/video112/graficos/pegar.gif"));
+        JMenuItem pegar = new JMenuItem("Pegar", new ImageIcon("src/java_hasta_el_video_160/video112/graficos/pegar.gif"));
         
         //---------------------------------------------------------
         
