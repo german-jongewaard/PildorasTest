@@ -153,17 +153,14 @@ class LaminaProcesador extends JPanel{
         
         configura_barra("src/java_hasta_el_video_160/video114/graficos/a_izquierda.gif").addActionListener(new StyledEditorKit.AlignmentAction("Texto_Izquierda", 0));
         configura_barra("src/java_hasta_el_video_160/video114/graficos/a_centro.gif").addActionListener(new StyledEditorKit.AlignmentAction("Texto_Centrado", 1));
-        configura_barra("src/video114/graficos/a_derecha.gif").addActionListener(new StyledEditorKit.AlignmentAction("Texto_Derecha", 2));
-        configura_barra("src/video114/graficos/a_justificado.gif").addActionListener(new StyledEditorKit.AlignmentAction("Texto_Justificado", 3));
-          
-        
+        configura_barra("src/java_hasta_el_video_160/video114/graficos/a_derecha.gif").addActionListener(new StyledEditorKit.AlignmentAction("Texto_Derecha", 2));
+        configura_barra("src/java_hasta_el_video_160/video114/graficos/a_justificado.gif").addActionListener(new StyledEditorKit.AlignmentAction("Texto_Justificado", 3));
+                  
         //Coloca los iconos de forma Vertical en la barra!!!
         barra.setOrientation(1);
         
         //ahora coloco la barra de herramientas en el panel!
-        add(barra, BorderLayout.WEST);
-        
-        
+        add(barra, BorderLayout.WEST);  
     }
     
     public JButton configura_barra(String ruta){
@@ -172,9 +169,7 @@ class LaminaProcesador extends JPanel{
         
         barra.add(boton);
         
-        
-        return boton;
-        
+        return boton;        
     }
     
     public void configura_menu (String rotulo, String menu, String tipo_letra, int estilos, int tam, String ruta_icono){
