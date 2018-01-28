@@ -1,6 +1,4 @@
- 
-package video114;     
- 
+package java_hasta_el_video_160.video114;
  
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -9,18 +7,18 @@ import java.awt.event.*;
 import javax.swing.*; 
 import javax.swing.text.*; 
 
+/**
+ *
+ * @author german
+ *  
+ */
  
 public class MarcoMenuNuevo {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
-        MenuProcesador_III mimarco = new MenuProcesador_III(); 
-        
-        mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);          
-        
+        MenuProcesador_III mimarco = new MenuProcesador_III();         
+        mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
         mimarco.setVisible(true); 
     }    
 }
@@ -29,16 +27,11 @@ public class MarcoMenuNuevo {
     
     public MenuProcesador_III(){
         
-       setTitle("Barra de Herramientas III");
-        
-       setBounds(500, 300, 550, 400);  
-       
+       setTitle("Barra de Herramientas III");        
+       setBounds(500, 300, 550, 400);
        LaminaProcesador milamina = new LaminaProcesador();
-       
-       add(milamina);
-       
-       setVisible(true);
-       
+       add(milamina);       
+       setVisible(true);       
     }    
 } 
 
@@ -64,8 +57,8 @@ class LaminaProcesador extends JPanel{
         configura_menu("Calibri", "fuente", "Calibri",1,1, "");
         configura_menu("Verdana", "fuente", "Verdana",1,1, "");
         //---------------------------------------------------------
-        configura_menu("Negrita", "estilo","", Font.BOLD,1, "src/video114/graficos/negrita.gif");
-        configura_menu("Cursiva", "estilo","", Font.ITALIC,1, "src/video114/graficos/cursiva.gif"); 
+        configura_menu("Negrita", "estilo","", Font.BOLD,1, "src/java_hasta_el_video_160/video114/graficos/negrita.gif");
+        configura_menu("Cursiva", "estilo","", Font.ITALIC,1, "src/java_hasta_el_video_160/video114/graficos/cursiva.gif"); 
      
         //---------------------------------------------------------
         
