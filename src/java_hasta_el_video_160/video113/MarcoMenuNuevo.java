@@ -7,6 +7,11 @@ import java.awt.event.*;
 import javax.swing.*; 
 import javax.swing.text.*; 
 
+/**
+ *
+ * @author german
+ *  
+ */
  
 public class MarcoMenuNuevo {
 
