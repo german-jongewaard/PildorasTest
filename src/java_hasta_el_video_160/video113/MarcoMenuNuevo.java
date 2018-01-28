@@ -144,11 +144,11 @@ class LaminaProcesador extends JPanel{
         //Barra de Herramientas
         JToolBar barra = new JToolBar();
         
-        JButton negritaBarra = new JButton(new ImageIcon("src/video113/graficos/negrita.gif"));
+        JButton negritaBarra = new JButton(new ImageIcon("src/java_hasta_el_video_160/video113/graficos/negrita.gif"));
         
-        JButton cursivaBarra = new JButton(new ImageIcon("src/video113/graficos/cursiva.gif"));
+        JButton cursivaBarra = new JButton(new ImageIcon("src/java_hasta_el_video_160/video113/graficos/cursiva.gif"));
         
-        JButton subrayaBarra = new JButton(new ImageIcon("src/video113/graficos/subrayado.gif"));
+        JButton subrayaBarra = new JButton(new ImageIcon("src/java_hasta_el_video_160/video113/graficos/subrayado.gif"));
         //---------------------------------------------------------
         JButton azulBarra = new JButton(new ImageIcon("src/video113/graficos/azul.gif"));
                 
