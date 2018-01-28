@@ -27,16 +27,11 @@ public class MarcoMenuNuevo {
     
     public MenuProcesador_III(){
         
-       setTitle("Barra de Herramientas III");
-        
-       setBounds(500, 300, 550, 400);  
-       
-       LaminaProcesador milamina = new LaminaProcesador();
-       
-       add(milamina);
-       
-       setVisible(true);
-       
+       setTitle("Barra de Herramientas III");        
+       setBounds(500, 300, 550, 400);         
+       LaminaProcesador milamina = new LaminaProcesador();       
+       add(milamina);       
+       setVisible(true);       
     }    
 } 
 
@@ -62,8 +57,8 @@ class LaminaProcesador extends JPanel{
         configura_menu("Calibri", "fuente", "Calibri",1,1, "");
         configura_menu("Verdana", "fuente", "Verdana",1,1, "");
         //---------------------------------------------------------
-        configura_menu("Negrita", "estilo","", Font.BOLD,1, "src/video112/graficos/negrita.gif");
-        configura_menu("Cursiva", "estilo","", Font.ITALIC,1, "src/video112/graficos/cursiva.gif"); 
+        configura_menu("Negrita", "estilo","", Font.BOLD,1, "src/java_hasta_el_video_160/video112/graficos/negrita.gif");
+        configura_menu("Cursiva", "estilo","", Font.ITALIC,1, "src/java_hasta_el_video_160/video112/graficos/cursiva.gif"); 
      
         //---------------------------------------------------------
         
