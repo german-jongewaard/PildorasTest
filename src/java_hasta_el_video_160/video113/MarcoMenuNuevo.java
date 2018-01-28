@@ -150,16 +150,16 @@ class LaminaProcesador extends JPanel{
         
         JButton subrayaBarra = new JButton(new ImageIcon("src/java_hasta_el_video_160/video113/graficos/subrayado.gif"));
         //---------------------------------------------------------
-        JButton azulBarra = new JButton(new ImageIcon("src/video113/graficos/azul.gif"));
+        JButton azulBarra = new JButton(new ImageIcon("src/java_hasta_el_video_160/video113/graficos/azul.gif"));
                 
-        JButton amarilloBarra = new JButton(new ImageIcon("src/video113/graficos/amarilla.gif"));
+        JButton amarilloBarra = new JButton(new ImageIcon("src/java_hasta_el_video_160/video113/graficos/amarilla.gif"));
                
-        JButton rojoBarra = new JButton(new ImageIcon("src/video113/graficos/roja.gif"));
+        JButton rojoBarra = new JButton(new ImageIcon("src/java_hasta_el_video_160/video113/graficos/roja.gif"));
         //---------------------------------------------------------
-        JButton align_izquierda = new JButton(new ImageIcon("src/video113/graficos/a_izquierda.gif"));
-        JButton align_centro = new JButton(new ImageIcon("src/video113/graficos/a_centro.gif"));
-        JButton align_derecha = new JButton(new ImageIcon("src/video113/graficos/a_derecha.gif"));
-        JButton align_justificado = new JButton(new ImageIcon("src/video113/graficos/a_justificado.gif"));
+        JButton align_izquierda = new JButton(new ImageIcon("src/java_hasta_el_video_160/video113/graficos/a_izquierda.gif"));
+        JButton align_centro = new JButton(new ImageIcon("src/java_hasta_el_video_160/video113/graficos/a_centro.gif"));
+        JButton align_derecha = new JButton(new ImageIcon("src/java_hasta_el_video_160/video113/graficos/a_derecha.gif"));
+        JButton align_justificado = new JButton(new ImageIcon("src/java_hasta_el_video_160/video113/graficos/a_justificado.gif"));
         //---------------------------------------------------------
         //aqui pongo los elementos a la ESCUCHA, para que funcionen en la barra.
         negritaBarra.addActionListener(new StyledEditorKit.BoldAction());        
@@ -198,8 +198,6 @@ class LaminaProcesador extends JPanel{
         
         //ahora coloco la barra de herramientas en el panel!
         add(barra, BorderLayout.WEST);
-        
-        
     }
     
     public void configura_menu (String rotulo, String menu, String tipo_letra, int estilos, int tam, String ruta_icono){
@@ -249,8 +247,7 @@ class LaminaProcesador extends JPanel{
       
     JTextPane miarea; 
     JMenu edicion, fuente, estilo, tamagno, linea;
-    Font letras;
-    
+    Font letras;    
 }
  
      
