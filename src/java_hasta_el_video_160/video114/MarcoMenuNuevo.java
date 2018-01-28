@@ -151,8 +151,8 @@ class LaminaProcesador extends JPanel{
         configura_barra("src/java_hasta_el_video_160/video114/graficos/amarilla.gif").addActionListener(new StyledEditorKit.ForegroundAction("Pone_amarilla", Color.YELLOW));
         configura_barra("src/java_hasta_el_video_160/video114/graficos/roja.gif").addActionListener(new StyledEditorKit.ForegroundAction("Pone_roja", Color.RED));
         
-        configura_barra("src/video114/graficos/a_izquierda.gif").addActionListener(new StyledEditorKit.AlignmentAction("Texto_Izquierda", 0));
-        configura_barra("src/video114/graficos/a_centro.gif").addActionListener(new StyledEditorKit.AlignmentAction("Texto_Centrado", 1));
+        configura_barra("src/java_hasta_el_video_160/video114/graficos/a_izquierda.gif").addActionListener(new StyledEditorKit.AlignmentAction("Texto_Izquierda", 0));
+        configura_barra("src/java_hasta_el_video_160/video114/graficos/a_centro.gif").addActionListener(new StyledEditorKit.AlignmentAction("Texto_Centrado", 1));
         configura_barra("src/video114/graficos/a_derecha.gif").addActionListener(new StyledEditorKit.AlignmentAction("Texto_Derecha", 2));
         configura_barra("src/video114/graficos/a_justificado.gif").addActionListener(new StyledEditorKit.AlignmentAction("Texto_Justificado", 3));
           
