@@ -1,11 +1,14 @@
- 
 package java_hasta_el_video_160.video116;     
  
 import java.awt.BorderLayout;
 import java.awt.Dimension; 
-
 import javax.swing.*; 
 
+/**
+ *
+ * @author german
+ *  
+ */
  
 public class DisposicionMuelle {
 
