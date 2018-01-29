@@ -11,15 +11,12 @@ import javax.swing.*;
  */
  
 public class PruebaDisposiciones {
-
     
     public static void main(String[] args) {
         // TODO code application logic here
         
-       MarcoCaja mimarco = new MarcoCaja();
-       
-       mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-       
+       MarcoCaja mimarco = new MarcoCaja();       
+       mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);       
        mimarco.setVisible(true); 
     }    
 }
