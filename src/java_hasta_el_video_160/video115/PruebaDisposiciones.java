@@ -32,9 +32,9 @@ class MarcoCaja extends JFrame{
         //Primera caja Horizontal
         JLabel rotulo1 = new JLabel("Nombre:");
          
-        JTextField texto1 = new JTextField(10);
-         
+        JTextField texto1 = new JTextField(10);         
         texto1.setMaximumSize(texto1.getPreferredSize());
+        
         //aqui creo la Caja
         Box cajaH1 = Box.createHorizontalBox();
          
@@ -76,10 +76,8 @@ class MarcoCaja extends JFrame{
         cajaVertical.add(cajaH3);
         
         //aqui agrego el contenedor PADRE con todos sus elementos al Panel
-        add(cajaVertical, BorderLayout.CENTER);
-        
+        add(cajaVertical, BorderLayout.CENTER);        
     }
-
 }
  
      
