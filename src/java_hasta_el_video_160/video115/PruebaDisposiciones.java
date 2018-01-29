@@ -26,8 +26,7 @@ class MarcoCaja extends JFrame{
     
     public MarcoCaja(){  
         
-        setTitle("Marco en la caja");
-        
+        setTitle("Marco en la caja");        
         setBounds(400, 250, 600, 400);  
          
         //Primera caja Horizontal
