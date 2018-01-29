@@ -11,18 +11,12 @@ import javax.swing.*;
  */
  
 public class DisposicionMuelle {
-
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
         // TODO code application logic here
         
-       MarcoMuelle mimarco = new MarcoMuelle();
-       
+       MarcoMuelle mimarco = new MarcoMuelle();       
        mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-       
-        
     }    
 }
  
