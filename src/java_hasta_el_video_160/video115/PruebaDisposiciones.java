@@ -4,6 +4,11 @@ import java.awt.BorderLayout;
 import java.awt.Dimension; 
 import javax.swing.*; 
 
+/**
+ *
+ * @author german
+ *  
+ */
  
 public class PruebaDisposiciones {
 
