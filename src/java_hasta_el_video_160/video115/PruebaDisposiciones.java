@@ -1,5 +1,5 @@
  
-package video115;     
+package java_hasta_el_video_160.video115;     
  
 import java.awt.BorderLayout;
 import java.awt.Dimension; 
