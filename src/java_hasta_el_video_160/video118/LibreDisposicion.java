@@ -26,14 +26,11 @@ class MarcoLibre extends JFrame{
     
     public MarcoLibre(){  
         
-        setTitle("Marco Libre");
-        
+        setTitle("Marco Libre");        
         setBounds(450, 200, 600, 400);  
         
-        LaminaLibre milamina = new LaminaLibre();
-        
-        add(milamina);
-        
+        LaminaLibre milamina = new LaminaLibre();        
+        add(milamina);        
         setVisible(true); 
     } 
 }
