@@ -41,8 +41,7 @@ class LaminaLibre extends JPanel{
         //Un layout nulo, una disposición LIBRE!!!
         setLayout(null);
         
-        JLabel nombre = new JLabel("Nombre: ");
-        
+        JLabel nombre = new JLabel("Nombre: ");        
         JLabel apellido = new JLabel("Apellido: ");
         
         JTextField c_nombre = new JTextField(10);
