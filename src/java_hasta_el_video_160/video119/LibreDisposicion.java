@@ -47,17 +47,13 @@ class LaminaLibre extends JPanel{
         /* EnColumnas() es una clase creada por mi para colocar los elementos */
         setLayout(new EnColumnas());
         
-        JLabel nombre = new JLabel("Nombre: ");
-        
-        JLabel apellido = new JLabel("Apellido: ");
-        
+        JLabel nombre = new JLabel("Nombre: ");        
+        JLabel apellido = new JLabel("Apellido: ");        
         JLabel telefono = new JLabel("Teléfono: ");        
        
         
-        JTextField c_nombre = new JTextField(10);
-        
-        JTextField c_apellido = new JTextField(20);
-        
+        JTextField c_nombre = new JTextField(10);        
+        JTextField c_apellido = new JTextField(20);        
         JTextField c_telefono = new JTextField(10);
         
         /*nombre.setBounds(20, 20, 80, 10);
@@ -80,7 +76,6 @@ class LaminaLibre extends JPanel{
 
 
 class EnColumnas implements LayoutManager{
-
    
     public void addLayoutComponent(String name, Component comp) { }
 
@@ -117,18 +112,13 @@ class EnColumnas implements LayoutManager{
             eso quiere decir que es PAR y agrega una pareja!*/
             if(contador%2 == 0){
                 x = 20;
-                y += 40;
-                
+                y += 40;                
             }
-        }
-        
+        }        
     }
     
-    private int x = 20;
-    
-    private int y = 20;
-    
-    
+    private int x = 20;    
+    private int y = 20;   
 }
 
 
