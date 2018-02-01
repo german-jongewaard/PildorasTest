@@ -21,12 +21,9 @@ public class LibreDisposicion {
        MarcoLibre mimarco = new MarcoLibre();
        
        mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-       
-        
     }    
 }
  
-
 class MarcoLibre extends JFrame{
     
     public MarcoLibre(){  
