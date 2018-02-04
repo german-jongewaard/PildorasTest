@@ -55,10 +55,8 @@ class LaminaLibre extends JPanel{
         JLabel telefono = new JLabel("Teléfono: ");        
        
         
-        JTextField c_nombre = new JTextField(10);
-        
-        JTextField c_apellido = new JTextField(20);
-        
+        JTextField c_nombre = new JTextField(10);        
+        JTextField c_apellido = new JTextField(20);        
         JTextField c_telefono = new JTextField(10);
         
         /*nombre.setBounds(20, 20, 80, 10);
