@@ -26,14 +26,9 @@ class Cuadros_Dialogos extends JFrame{
     
     public Cuadros_Dialogos(){  
         
-        setTitle("Cuadros Dialogos");
-        
-        setBounds(500, 300, 400, 250);   
-         
-        
+        setTitle("Cuadros Dialogos");        
+        setBounds(500, 300, 400, 250);  
         add(new Lamina_Cuadros_Dialogos());
-        
-         
     } 
 }
 
