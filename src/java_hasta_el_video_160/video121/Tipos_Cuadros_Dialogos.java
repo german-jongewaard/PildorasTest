@@ -11,10 +11,7 @@ import javax.swing.*;
  */
  
 public class Tipos_Cuadros_Dialogos {
-
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
         // TODO code application logic here
         
