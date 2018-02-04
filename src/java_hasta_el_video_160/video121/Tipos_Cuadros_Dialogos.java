@@ -1,12 +1,10 @@
 package java_hasta_el_video_160.video121;    
- 
-  
- 
- 
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*; 
+
+
 
  
 public class Tipos_Cuadros_Dialogos {
