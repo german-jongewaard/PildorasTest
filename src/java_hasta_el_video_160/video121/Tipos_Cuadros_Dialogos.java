@@ -36,12 +36,9 @@ class Lamina_Cuadros_Dialogos extends JPanel{
     
     public Lamina_Cuadros_Dialogos(){  
         
-        boton1 = new JButton("Boton 1");
-        
-        boton2 = new JButton("Boton 2");
-        
-        boton3 = new JButton("Boton 3");
-        
+        boton1 = new JButton("Boton 1");        
+        boton2 = new JButton("Boton 2");        
+        boton3 = new JButton("Boton 3");        
         boton4 = new JButton("Boton 4");
         
         boton1.addActionListener(new Accion_botones());
