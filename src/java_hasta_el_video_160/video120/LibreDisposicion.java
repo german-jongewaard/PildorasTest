@@ -50,10 +50,8 @@ class LaminaLibre extends JPanel{
         /* EnColumnas() es una clase creada por mi para colocar los elementos */
         setLayout(new EnColumnas());
         
-        JLabel nombre = new JLabel("Nombre: ");
-        
-        JLabel apellido = new JLabel("Apellido: ");
-        
+        JLabel nombre = new JLabel("Nombre: ");        
+        JLabel apellido = new JLabel("Apellido: ");        
         JLabel telefono = new JLabel("Teléfono: ");        
        
         
