@@ -122,8 +122,7 @@ class EnColumnas implements LayoutManager{
             eso quiere decir que es PAR y agrega una pareja!*/
             if(contador%2 == 0){
                 x = d / 2;
-                y += 40;
-                
+                y += 40;                
             }
         }        
     }
