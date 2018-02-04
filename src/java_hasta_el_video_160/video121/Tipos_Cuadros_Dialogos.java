@@ -15,13 +15,9 @@ public class Tipos_Cuadros_Dialogos {
     public static void main(String[] args) {
         // TODO code application logic here
         
-       Cuadros_Dialogos mimarco = new Cuadros_Dialogos();
-       
-       mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-       
+       Cuadros_Dialogos mimarco = new Cuadros_Dialogos();       
+       mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);       
        mimarco.setVisible(true);
-       
-        
     }    
 }
  
