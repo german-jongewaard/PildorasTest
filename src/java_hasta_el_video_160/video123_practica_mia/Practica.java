@@ -59,10 +59,11 @@ class LaminaPractica2 extends JPanel{
     private void ponerBoton (String rotulo, ActionListener oyente){
         
         JButton boton =new JButton(rotulo);        
-        boton.addActionListener(oyente);
-        
+        boton.addActionListener(oyente);        
         milamina2.add(boton); 
     } 
+    
+    
     
     private JPanel milamina2;
  }
