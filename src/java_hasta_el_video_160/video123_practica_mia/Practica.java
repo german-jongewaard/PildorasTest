@@ -17,10 +17,8 @@ public class Practica {
     
     public static void main(String[] args) {
         // TODO code application logic here
-        MarcoPractica mimarco = new MarcoPractica(); 
-        
-        mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        
+        MarcoPractica mimarco = new MarcoPractica();         
+        mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);        
         mimarco.setVisible(true);
     }
     
