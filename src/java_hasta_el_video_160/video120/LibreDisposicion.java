@@ -129,15 +129,12 @@ class EnColumnas implements LayoutManager{
                 y += 40;
                 
             }
-        }
-        
+        }        
     }
     
     private int x;
     
-    private int y = 20;
-    
-    
+    private int y = 20;    
 }
 
 
