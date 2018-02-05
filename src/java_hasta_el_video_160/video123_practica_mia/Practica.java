@@ -62,9 +62,6 @@ class LaminaPractica2 extends JPanel{
         boton.addActionListener(oyente);        
         milamina2.add(boton); 
     } 
-    
-    
-    
     private JPanel milamina2;
  }
      
