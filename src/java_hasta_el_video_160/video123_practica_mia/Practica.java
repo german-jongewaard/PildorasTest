@@ -39,13 +39,9 @@ class LaminaPractica extends JPanel{
     
     public LaminaPractica(){
         
-        setLayout(new BorderLayout());
-        
-        milamina1 = new JPanel();
-        
+        setLayout(new BorderLayout());        
+        milamina1 = new JPanel();        
         milamina1.setLayout(new GridLayout(2,3));
-        
-        
     }
      private JPanel milamina1;
 }
