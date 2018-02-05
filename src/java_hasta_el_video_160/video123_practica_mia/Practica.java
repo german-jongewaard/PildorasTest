@@ -51,13 +51,9 @@ class LaminaPractica2 extends JPanel{
     
     public LaminaPractica2(){
         
-        milamina2 = new JPanel();
-        
-        milamina2.setLayout(new FlowLayout());
-        
+        milamina2 = new JPanel();        
+        milamina2.setLayout(new FlowLayout());        
         add(milamina2, FlowLayout.CENTER);
-        
-           
     }
     //Creo un metodo que se encarga de agregar los botones a la lamina.
     private void ponerBoton (String rotulo, ActionListener oyente){
