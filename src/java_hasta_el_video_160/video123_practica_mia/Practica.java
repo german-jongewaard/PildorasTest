@@ -20,8 +20,7 @@ public class Practica {
         MarcoPractica mimarco = new MarcoPractica();         
         mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);        
         mimarco.setVisible(true);
-    }
-    
+    }    
 }
 
  class MarcoPractica extends JFrame{
