@@ -7,6 +7,11 @@ import java.awt.Dimension;
 import java.awt.LayoutManager;
 import javax.swing.*; 
 
+/**
+ *
+ * @author german
+ * 
+ */
  
 public class LibreDisposicion {
 
