@@ -27,16 +27,11 @@ public class Practica {
     
     public MarcoPractica(){
         
-       setTitle("Práctica");
-        
-       setBounds(500, 300, 450, 300); 
-       
-       LaminaPractica milamina = new LaminaPractica();
-      
-       add(milamina);
-      
-      // pack();
-         
+       setTitle("Práctica");        
+       setBounds(500, 300, 450, 300);        
+       LaminaPractica milamina = new LaminaPractica();      
+       add(milamina);      
+      // pack();         
     }    
 }
 
