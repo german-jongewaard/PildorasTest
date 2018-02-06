@@ -154,7 +154,7 @@ public class Marco_Dialogos extends JFrame {
             
             return new Object[]{new ImageIcon("src/java_hasta_el_video_160/video123_practica_pilas_por_el_131"
             + "/img/azul.gif"), new ImageIcon("src/java_hasta_el_video_160/video123_practica_pilas_por_el_131"
-            + "/img/amarilla.gif"),new ImageIcon("src/video123_practica_pilas_por_el_131"
+            + "/img/amarilla.gif"),new ImageIcon("src/java_hasta_el_video_160/video123_practica_pilas_por_el_131"
             + "/img/roja.gif")};
             
         }else if(s.equals("Object[]")){
