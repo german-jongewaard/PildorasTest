@@ -164,8 +164,7 @@ public class Marco_Dialogos extends JFrame {
                                 componenteMensaje,
                                 objetoMensaje  
             }; 
-        }else{
-            
+        }else{            
             return null;            
         }  
     }    
