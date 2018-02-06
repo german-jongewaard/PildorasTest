@@ -1,5 +1,10 @@
 package java_hasta_el_video_160.video123_practica_pilas_por_el_131;
  
+/**
+ *
+ * @author german
+ * 
+ */
  
 import javax.swing.*;
  
