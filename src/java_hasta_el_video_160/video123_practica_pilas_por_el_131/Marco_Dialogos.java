@@ -166,11 +166,9 @@ public class Marco_Dialogos extends JFrame {
             }; 
         }else{
             
-            return null;
-            
+            return null;            
         }  
-    }
-    
+    }    
     
     //----------------------------------------------------------- 
     
