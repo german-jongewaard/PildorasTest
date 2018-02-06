@@ -216,8 +216,7 @@ public class Marco_Dialogos extends JFrame {
     
     private Object objetoMensaje = new Date();
     
-    private Component componenteMensaje = new Lamina_Ejemplo();
-   
+    private Component componenteMensaje = new Lamina_Ejemplo();   
 }
 
 class Lamina_Ejemplo extends JPanel{
