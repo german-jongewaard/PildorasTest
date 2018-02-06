@@ -81,8 +81,7 @@ public class Marco_Dialogos extends JFrame {
         add(lamina_mostrar, BorderLayout.SOUTH);
         
         //aqui coloco las seis cajas
-        add(lamina_cuadricula, BorderLayout.CENTER); 
-        
+        add(lamina_cuadricula, BorderLayout.CENTER);         
     }
     
     //-------------- PROPORCIONA EL MENSAJE ---------------------    
