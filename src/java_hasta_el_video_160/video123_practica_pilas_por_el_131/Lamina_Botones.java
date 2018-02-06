@@ -45,8 +45,7 @@ public class Lamina_Botones extends JPanel{
         //return s;
         
         /* Otra forma de hacerlo y abreviando todo este codigo seria:     */
-        return grupo.getSelection().getActionCommand();
-        
+        return grupo.getSelection().getActionCommand();        
     }    
     private ButtonGroup grupo;    
 }
