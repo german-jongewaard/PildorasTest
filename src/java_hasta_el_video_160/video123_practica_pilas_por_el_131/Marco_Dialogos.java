@@ -137,8 +137,7 @@ public class Marco_Dialogos extends JFrame {
             return -1;
         }else{
             return 0;
-        }       
-        
+        }               
     }
     //----------------------------------------------------------- 
     //-------------- DA OPCIONES A LA LAMINA OPCION ------------------ 
