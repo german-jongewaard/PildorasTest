@@ -6,6 +6,12 @@ import java.awt.event.*;
 import java.awt.geom.Rectangle2D;
 import java.util.Date;
 
+/**
+ *
+ * @author german
+ * 
+ */
+
 public class Marco_Dialogos extends JFrame {
     
     public Marco_Dialogos(){
