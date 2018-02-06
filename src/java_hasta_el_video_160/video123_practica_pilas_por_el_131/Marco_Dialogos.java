@@ -152,7 +152,7 @@ public class Marco_Dialogos extends JFrame {
             
         }else if(s.equals("Icon[]")){
             
-            return new Object[]{new ImageIcon("src/video123_practica_pilas_por_el_131"
+            return new Object[]{new ImageIcon("src/java_hasta_el_video_160/video123_practica_pilas_por_el_131"
             + "/img/azul.gif"), new ImageIcon("src/video123_practica_pilas_por_el_131"
             + "/img/amarilla.gif"),new ImageIcon("src/video123_practica_pilas_por_el_131"
             + "/img/roja.gif")};
@@ -202,17 +202,17 @@ public class Marco_Dialogos extends JFrame {
                 
                 JOptionPane.showInputDialog(Marco_Dialogos.this, dameMensaje(), "Título", 
                           dameTipo(lamina_tipo_mensajes), null, new String[]{"Amarillo", "Azul", "Rojo"}, "Azul");
-                 }
-        
+                 }        
             } 
         }
     }
+    
     private Lamina_Botones lamina_tipo, lamina_tipo_mensajes, lamina_mensaje, 
                            lamina_confirmar, lamina_tipo_opcion, lamina_entrada; 
     
     private String cadenaMensaje="Mensaje";
     
-    private Icon iconoMensaje = new ImageIcon("src/video123_practica_pilas_por_el_131"
+    private Icon iconoMensaje = new ImageIcon("src/java_hasta_el_video_160/video123_practica_pilas_por_el_131"
             + "/img/Lady_gangsta.gif");
     
     private Object objetoMensaje = new Date();
