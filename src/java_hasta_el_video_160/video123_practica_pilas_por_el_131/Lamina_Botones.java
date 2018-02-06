@@ -2,6 +2,12 @@ package java_hasta_el_video_160.video123_practica_pilas_por_el_131;
 
 import javax.swing.*;
 
+/**
+ *
+ * @author german
+ * 
+ */
+
 public class Lamina_Botones extends JPanel{
     
     public Lamina_Botones(String titulo, String [] opciones){
@@ -23,8 +29,7 @@ public class Lamina_Botones extends JPanel{
             grupo.add(bot);
             
             bot.setSelected(i==0);
-        } 
-        
+        }         
     }
     
     //creo un metodo para que me devuelva un String (para manejarlos radiobuttons
