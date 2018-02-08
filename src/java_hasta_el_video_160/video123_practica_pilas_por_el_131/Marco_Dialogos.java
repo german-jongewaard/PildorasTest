@@ -65,8 +65,7 @@ public class Marco_Dialogos extends JFrame {
         lamina_cuadricula.add(lamina_tipo_mensajes);        
         lamina_cuadricula.add(lamina_mensaje);        
         lamina_cuadricula.add(lamina_confirmar);        
-        lamina_cuadricula.add(lamina_tipo_opcion);     
-        
+        lamina_cuadricula.add(lamina_tipo_opcion);
         lamina_cuadricula.add(lamina_entrada);
         
         //Construimos la lamina inferior 
