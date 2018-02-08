@@ -61,8 +61,7 @@ public class Marco_Dialogos extends JFrame {
         
         setLayout(new BorderLayout()); 
         
-        lamina_cuadricula.add(lamina_tipo);
-        
+        lamina_cuadricula.add(lamina_tipo);        
         lamina_cuadricula.add(lamina_tipo_mensajes);
         
         lamina_cuadricula.add(lamina_mensaje);
