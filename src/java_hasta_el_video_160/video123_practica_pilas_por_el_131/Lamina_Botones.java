@@ -22,8 +22,7 @@ public class Lamina_Botones extends JPanel{
             //aqui creo los radio Buttons!
             JRadioButton bot = new JRadioButton(opciones[i]);            
             bot.setActionCommand(opciones[i]);            
-            add(bot);
-            
+            add(bot);            
             grupo.add(bot);
             
             bot.setSelected(i==0);
