@@ -34,6 +34,5 @@ public class Fallos {
         
         System.out.println("Hola " + nombre + " Tienes " + edad + 
                 " años " + " El programa termino su ejecución.");
-    }
-    
+    }    
 }
