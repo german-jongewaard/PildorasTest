@@ -5,8 +5,10 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author German
+ * @author german
+ * 
  */
+
 public class Fallos {
 
     /**
