@@ -13,8 +13,10 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author German
+ * @author german
+ * 
  */
+
 public class Leer_Imagen { 
 
     /**
