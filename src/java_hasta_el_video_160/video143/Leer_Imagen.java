@@ -32,10 +32,15 @@ public class Leer_Imagen {
     public MarcoImagenes(){
         
         setTitle("Marco con Imagen");        
+        
         Toolkit mipantalla = Toolkit.getDefaultToolkit();        
-        Dimension tamanioPantalla = mipantalla.getScreenSize();        
+        
+        Dimension tamanioPantalla = mipantalla.getScreenSize();   
+        
         int alturaPantalla = tamanioPantalla.height;        
-        int anchoPantalla = tamanioPantalla.width;        
+        
+        int anchoPantalla = tamanioPantalla.width;       
+        
         setSize(anchoPantalla/2, alturaPantalla/2);
         
         setLocation(anchoPantalla/4, alturaPantalla/4);             
