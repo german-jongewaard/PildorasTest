@@ -48,8 +48,7 @@ public class Leer_Imagen {
         //Instancio la clase LaminaConFiguras para poder verla en el marco con dibujos!
         LaminaConImagen milamina = new LaminaConImagen();
         //Agrego la instancia !
-        add(milamina); 
-        
+        add(milamina);         
     }    
 }
 
