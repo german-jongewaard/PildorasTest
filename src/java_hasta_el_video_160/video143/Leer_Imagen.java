@@ -19,9 +19,6 @@ import javax.swing.JPanel;
 
 public class Leer_Imagen { 
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         MarcoImagenes mimarco = new MarcoImagenes();
