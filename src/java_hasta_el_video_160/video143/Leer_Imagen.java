@@ -24,8 +24,7 @@ public class Leer_Imagen {
         MarcoImagenes mimarco = new MarcoImagenes();        
         mimarco.setVisible(true);        
         mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    }
-    
+    }    
 }
 
  class MarcoImagenes extends JFrame{
