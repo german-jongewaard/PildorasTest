@@ -71,8 +71,7 @@ class LaminaConImagen extends JPanel{
                 
                 g.drawString("No podemos cargar la imagen", 10 , 10);
                 
-            }else{               
-            
+            }else{                           
 
             int anchuraImagen = imagen.getWidth(this);
             
