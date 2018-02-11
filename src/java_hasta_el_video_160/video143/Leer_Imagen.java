@@ -61,8 +61,6 @@ class LaminaConImagen extends JPanel{
         }catch(IOException e){
             System.out.println("La imagen no se encuentra");
         }
-         
-         
     }
     
         public void paintComponent(Graphics g){
