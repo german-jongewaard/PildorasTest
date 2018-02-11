@@ -70,6 +70,7 @@ class LaminaConImagen extends JPanel{
             if(imagen == null){
                 
                 g.drawString("No podemos cargar la imagen", 10 , 10);
+                
             }else{               
             
 
