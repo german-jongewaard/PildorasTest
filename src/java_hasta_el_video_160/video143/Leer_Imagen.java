@@ -90,7 +90,6 @@ class LaminaConImagen extends JPanel{
                     }
                 }                  
             }
-               
         }
         }
         private Image imagen;
