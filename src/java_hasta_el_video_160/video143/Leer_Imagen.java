@@ -88,9 +88,7 @@ class LaminaConImagen extends JPanel{
                         g.copyArea(0, 0, anchuraImagen, alturaImagen, anchuraImagen+i, alturaImagen+i);
                         
                     }
-                }
-                
-                  
+                }                  
             }
                
         }
