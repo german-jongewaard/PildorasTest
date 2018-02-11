@@ -21,7 +21,8 @@ public class Leer_Imagen {
 
     public static void main(String[] args) {
         // TODO code application logic here
-        MarcoImagenes mimarco = new MarcoImagenes();        
+        MarcoImagenes mimarco = new MarcoImagenes();     
+        
         mimarco.setVisible(true);        
         mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }    
