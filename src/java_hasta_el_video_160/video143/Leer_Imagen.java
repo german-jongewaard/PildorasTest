@@ -61,6 +61,7 @@ class LaminaConImagen extends JPanel{
         try{
             imagen = ImageIO.read(new File("src/java_hasta_el_video_160/video143/imagenes/roja.gif"));
         }catch(IOException e){
+            
             System.out.println("La imagen no se encuentra");
         }
     }
