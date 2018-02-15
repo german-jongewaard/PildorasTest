@@ -52,6 +52,7 @@ public class Entrada_datos {
                 (edad + 1) + " años");
         
         entrada.close();
+        
         }catch(Exception e){
             System.out.println("¿Qué demonios has introducido en la edad?");
         }
