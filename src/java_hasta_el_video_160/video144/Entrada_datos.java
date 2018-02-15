@@ -37,6 +37,7 @@ public class Entrada_datos {
     static void pedirDatos() throws InputMismatchException {
         
         try{
+            
         Scanner entrada = new Scanner(System.in);
         
         System.out.println("Introduce tu nombre por favor");
