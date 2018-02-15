@@ -59,8 +59,7 @@ public class Entrada_datos {
             
         }
         
-        System.out.println("Hemos terminado");
-        
+        System.out.println("Hemos terminado");        
         
     }
  
