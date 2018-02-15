@@ -54,6 +54,7 @@ public class Entrada_datos {
         entrada.close();
         
         }catch(Exception e){
+            
             System.out.println("¿Qué demonios has introducido en la edad?");
         }
         System.out.println("Hemos terminado");
