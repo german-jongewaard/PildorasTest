@@ -13,6 +13,7 @@ public class Entrada_datos {
         // TODO code application logic here
         
         System.out.println("¿Qué deseas hacer?");
+        
         System.out.println("1. Introducir datos");
         System.out.println("2. Salir del programa");
         
