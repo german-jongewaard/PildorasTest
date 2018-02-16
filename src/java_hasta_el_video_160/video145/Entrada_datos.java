@@ -63,7 +63,6 @@ public class Entrada_datos {
            // System.out.println("¿Qué demonios has introducido en la edad?");
      //   }
         System.out.println("Hemos terminado");  
-        
     }
  
 }
