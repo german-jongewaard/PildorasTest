@@ -15,6 +15,7 @@ public class Entrada_datos {
         System.out.println("¿Qué deseas hacer?");
         
         System.out.println("1. Introducir datos");
+        
         System.out.println("2. Salir del programa");
         
         Scanner entrada = new Scanner (System.in);
