@@ -20,8 +20,7 @@ public class Comprueba_mail {
             
         }catch(EOFException e){
             
-            System.out.println("La dirección de Email no es correcta");
-            
+            System.out.println("La dirección de Email no es correcta");            
         }
     }
     
