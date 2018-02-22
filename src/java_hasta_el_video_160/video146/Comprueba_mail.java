@@ -25,8 +25,7 @@ public class Comprueba_mail {
         }
     }
     
-    static void examina_mail(String mail) throws EOFException {
-        
+    static void examina_mail(String mail) throws EOFException {        
         
         int arroba = 0;
         
