@@ -3,6 +3,11 @@ package java_hasta_el_video_160.video146;
 import java.io.EOFException;
 import javax.swing.JOptionPane;
 
+/**
+ *
+ * @author German
+ * 
+ */
 
 public class Comprueba_mail {
 
