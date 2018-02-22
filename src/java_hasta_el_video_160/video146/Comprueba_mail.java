@@ -10,7 +10,6 @@ import javax.swing.JOptionPane;
  */
 
 public class Comprueba_mail {
-
     
     public static void main(String[] args) {
         
