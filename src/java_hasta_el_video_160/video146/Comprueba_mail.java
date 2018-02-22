@@ -1,4 +1,4 @@
-package video146;
+package java_hasta_el_video_160.video146;
 
 import java.io.EOFException;
 import javax.swing.JOptionPane;
