@@ -23,9 +23,6 @@ public class Comprueba_mail {
             System.out.println("La dirección de Email no es correcta");
             
         }
-         
-        
-        
     }
     
     static void examina_mail(String mail) throws EOFException {
