@@ -41,10 +41,6 @@ public class Comprueba_mail {
              throw new EOFException();
              
          }else{
-             
-             
-         
-        
          
         for (int i=0;i<mail.length();i++ ){
             
