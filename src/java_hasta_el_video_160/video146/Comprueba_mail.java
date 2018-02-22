@@ -26,9 +26,8 @@ public class Comprueba_mail {
     
     static void examina_mail(String mail) throws EOFException {        
         
-        int arroba = 0;
-        
-         boolean punto = false;
+        int arroba = 0;        
+        boolean punto = false;
          
          if(mail.length()<=3){
              /*
