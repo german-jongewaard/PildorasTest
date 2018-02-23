@@ -13,8 +13,6 @@ public class Comprueba_mail {
     
     public static void main(String[] args) {
         
-        
-        
         String el_mail =JOptionPane.showInputDialog("Introduce el mail");
           
      try{
