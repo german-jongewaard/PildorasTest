@@ -34,7 +34,6 @@ public class Comprueba_mail {
         int arroba = 0;
         
          boolean punto = false;
-        
          
          if(mail.length()<=3){
              /*
