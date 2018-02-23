@@ -10,7 +10,6 @@ import javax.swing.*;
  */
 
 public class Comprueba_mail {
-
     
     public static void main(String[] args) {
         
