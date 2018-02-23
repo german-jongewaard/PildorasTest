@@ -28,8 +28,6 @@ public class Comprueba_mail {
             e.printStackTrace();
             
         }   
-          
-        
     }
                                            //aqui aplico mi Exception creada por mi
     static void examina_mail(String mail) throws Longitud_mail_erronea {
