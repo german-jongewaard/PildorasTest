@@ -25,8 +25,7 @@ public class Comprueba_mail {
             
             /* aqui obtengo una "pista" de que clase pudo haber 
             generado la Excepcion */
-            e.printStackTrace();
-            
+            e.printStackTrace();            
         }   
     }
                                            //aqui aplico mi Exception creada por mi
