@@ -87,6 +87,5 @@ class Longitud_mail_erronea extends Exception{
         /* aqui llamo al constructor de la clase Padre que exttiende de Exception y le 
         paso por parametro el mensaje de error */
         super(msj_error);        
-    }
-    
+    }    
 }
