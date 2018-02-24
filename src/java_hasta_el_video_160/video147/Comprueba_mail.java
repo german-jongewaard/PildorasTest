@@ -56,8 +56,7 @@ public class Comprueba_mail {
             
             if(mail.charAt(i)=='@'){
                 
-                arroba++;
-                
+                arroba++;                
             }
             if(mail.charAt(i)=='.'){
                 
