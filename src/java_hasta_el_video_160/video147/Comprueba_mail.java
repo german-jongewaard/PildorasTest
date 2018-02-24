@@ -30,9 +30,8 @@ public class Comprueba_mail {
                                            //aqui aplico mi Exception creada por mi
     static void examina_mail(String mail) throws Longitud_mail_erronea {        
         
-        int arroba = 0;
-        
-         boolean punto = false;
+        int arroba = 0;        
+        boolean punto = false;
          
          if(mail.length()<=3){
              /*
