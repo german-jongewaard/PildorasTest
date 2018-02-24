@@ -52,8 +52,7 @@ public class Comprueba_mail {
             constructor pasandole por parametro el mensaje de error */
             throw new Longitud_mail_erronea("El mail no puede tener menos de tres caracteres");
              
-         }else{
-             
+         }else{             
              
          
         
