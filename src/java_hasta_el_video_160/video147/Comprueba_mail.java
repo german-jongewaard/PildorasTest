@@ -15,8 +15,7 @@ public class Comprueba_mail {
         
         String el_mail =JOptionPane.showInputDialog("Introduce el mail");
           
-     try{
-            
+     try{            
             examina_mail(el_mail);
             
         }catch(Exception e){
