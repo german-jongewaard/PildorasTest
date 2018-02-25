@@ -25,8 +25,7 @@ public class Varias_excepciones {
                     e.getClass().getName());
             /* aqui soy mas especifico y me muestra el nombre de la clase del error*/            
         
-        }
-     
+        }     
           
         
     }
