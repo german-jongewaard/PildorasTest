@@ -4,7 +4,6 @@ import java.io.*;
 import javax.swing.*;
 
 public class Varias_excepciones {
-
     
     public static void main(String[] args) {
         
