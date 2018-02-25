@@ -3,7 +3,6 @@ package java_hasta_el_video_160.video148;
 import java.io.*;
 import javax.swing.*;
 
-
 public class Varias_excepciones {
 
     
