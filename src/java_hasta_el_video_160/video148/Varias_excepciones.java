@@ -23,8 +23,7 @@ public class Varias_excepciones {
             
             System.out.println("se ha generado un error de este tipo " + 
                     e.getClass().getName());
-            /* aqui soy mas especifico y me muestra el nombre de la clase del error*/
-            
+            /* aqui soy mas especifico y me muestra el nombre de la clase del error*/            
         
         }
      
