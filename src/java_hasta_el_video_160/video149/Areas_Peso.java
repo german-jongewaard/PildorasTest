@@ -31,8 +31,7 @@ public class Areas_Peso {
 /* La clausula finally hace que se ejecute siempre el contenido de su interior, al abrir la consola 
              y nombrarla "entrada" luego tengo que cerrar la consola "entrada" para liberar recursos en el sistema
              de este modo capturo la Excepcion y libero la consola colocandola en finally */             
-             entrada.close();
-             
+             entrada.close();             
          } 
          
          switch(figura){
