@@ -26,8 +26,7 @@ correctamente el CASTING porque Math.random quitaba los numeros despues de la co
             0,2374, al colocar los parentesis convierte ese numero en entero */
             
             num_aleat[i] = (int)(Math.random()*100);            
-        }
-        
+        }        
         for(int elem: num_aleat){
             
             System.out.println(elem);
