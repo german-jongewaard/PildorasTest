@@ -3,6 +3,12 @@ package java_hasta_el_video_160.video148;
 import java.io.*;
 import javax.swing.*;
 
+/**
+ *
+ * @author German
+ * 
+ */
+
 public class Varias_excepciones {
     
     public static void main(String[] args) {
