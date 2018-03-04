@@ -86,7 +86,6 @@ public class Areas_Peso {
               System.out.println("Si eres hombre tu peso ideal es : " + (altura-110) + " kg"); 
               
               System.out.println("Si eres mujer tu peso ideal es : " + (altura-120) + " kg"); 
-        }     
-          
+        }   
         static int figura;    
 }
