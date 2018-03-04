@@ -25,8 +25,7 @@ programa funcionaba bien y compilaba sin mostrar error, al hacer Debuggin mostro
 correctamente el CASTING porque Math.random quitaba los numeros despues de la coma y enviaba el cero
             0,2374, al colocar los parentesis convierte ese numero en entero */
             
-            num_aleat[i] = (int)(Math.random()*100);
-            
+            num_aleat[i] = (int)(Math.random()*100);            
         }
         
         for(int elem: num_aleat){
