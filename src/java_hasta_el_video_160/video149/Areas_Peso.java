@@ -18,8 +18,7 @@ public class Areas_Peso {
          
          System.out.println("Elige una opción: \n1: Cuadrado. \n2: Rectángulo. \n3: Trinángulo. \n4: Círculo.");
          
-         try{
-             
+         try{             
                 figura = entrada.nextInt();
          
                 //entrada.close();
@@ -34,10 +33,7 @@ public class Areas_Peso {
              de este modo capturo la Excepcion y libero la consola colocandola en finally */             
              entrada.close();
              
-         }
-
-         
-         
+         } 
          
          switch(figura){
              
