@@ -11,7 +11,6 @@ import javax.swing.*;
  */
 
 public class Areas_Peso {
-
     
     public static void main(String[] args) {
         
