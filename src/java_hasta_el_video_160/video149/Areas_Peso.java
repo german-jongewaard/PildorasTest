@@ -91,5 +91,4 @@ public class Areas_Peso {
           
         static int figura;
     
-    
 }
