@@ -79,8 +79,7 @@ public class Areas_Peso {
                  
                  System.out.println("La opción no es correcta");                     
          }
-         
-         
+                  
 //------------------------------------------------------------------------------------------------------
 
              int altura = Integer.parseInt(JOptionPane.showInputDialog("Introduce tu altura en cm"));
