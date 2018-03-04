@@ -4,9 +4,7 @@ import java.io.*;
 import java.util.*;
 import javax.swing.*;
 
-
 public class Aleatorios {
-
     
     public static void main(String[] args) {
      
