@@ -31,6 +31,5 @@ correctamente el CASTING porque Math.random quitaba los numeros despues de la co
             
             System.out.println(elem);            
         }        
-    }
-    
+    }    
 }
