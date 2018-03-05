@@ -30,8 +30,7 @@ correctamente el CASTING porque Math.random quitaba los numeros despues de la co
         for(int elem: num_aleat){
             
             System.out.println(elem);            
-        }
-        
+        }        
     }
     
 }
