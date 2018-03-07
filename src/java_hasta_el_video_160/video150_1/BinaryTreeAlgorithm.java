@@ -17,7 +17,8 @@ public class BinaryTreeAlgorithm {
 		callInorderAndPreorderPrints(root);
 	}
 	
-	public static Tree<Integer> restoreBinaryTree(int[] inorder, int[] preorder, int i, int j, int u, int v){
+	public static Tree<Integer> restoreBinaryTree(int[] inorder, int[] preorder, 
+                int i, int j, int u, int v){
 		if(j < i) return null;
 		else if(i == j) return new Tree<Integer>(inorder[i]);
 		
