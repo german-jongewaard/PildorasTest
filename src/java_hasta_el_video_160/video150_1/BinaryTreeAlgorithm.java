@@ -39,7 +39,7 @@ public class BinaryTreeAlgorithm {
 	}
 	
 	public static void callInorderAndPreorderPrints(Tree<Integer> tree){
-		System.out.print("inorder:  ");
+		System.out.print("en orden:  ");
 		inorderPrint(tree);
 		System.out.print("\npreorder: ");
 		preorderPrint(tree);
