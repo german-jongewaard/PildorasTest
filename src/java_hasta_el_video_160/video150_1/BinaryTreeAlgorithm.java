@@ -22,6 +22,7 @@ public class BinaryTreeAlgorithm {
 		else if(i == j) return new Tree<Integer>(inorder[i]);
 		
 		Tree<Integer> tree = new Tree<Integer>(preorder[u]);
+                
 		int k=i, w=u;
 		
 		while(inorder[k] != preorder[u]){
