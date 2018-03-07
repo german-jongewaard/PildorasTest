@@ -68,6 +68,5 @@ public class BinaryTreeAlgorithm {
 		if(tree.right != null){
 			inorderPrint(tree.right);
 		}
-	}		
-
+	}	
 }
