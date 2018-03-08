@@ -14,5 +14,4 @@ public class Tree<T> {
 	public Tree(T value){
 		this.value = value;
 	}
-
 }
