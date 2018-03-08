@@ -99,5 +99,4 @@ public class BuildGUI extends JFrame {
 	private static void setSingleGUI(BuildGUI singleGUI) {
 		BuildGUI.singleGUI = singleGUI;
 	}
-
 }
