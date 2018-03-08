@@ -1,6 +1,6 @@
 package test_gral.OOD_TermProject_emptyPlaylist_v2.client;
-import java.awt.Dimension;
 
+import java.awt.Dimension;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -10,12 +10,14 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.WindowConstants;
 
+/**
+ *
+ * @author German
+ * 
+ */
 
-public class BuildGUI extends JFrame {
+public class BuildGUI extends JFrame {	
 	
-	/**
-	 * 
-	 */
     private static final long serialVersionUID = -4331421966781835517L;
     protected JButton chillBtn = new JButton("CHILL");
     protected JButton popBtn = new JButton("POP");
