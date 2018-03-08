@@ -1,5 +1,11 @@
 package test_gral.inorder_preorder;
 
+/**
+ *
+ * @author German
+ * 
+ */
+
 public class Tree<T> {
 	public T value;
 	public Tree<T> left;
