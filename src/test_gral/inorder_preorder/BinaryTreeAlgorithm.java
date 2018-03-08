@@ -47,6 +47,7 @@ public class BinaryTreeAlgorithm {
 	}
 	
 	public static void preorderPrint(Tree<Integer> tree){
+            
 		System.out.print(tree.value + ", ");
 		
 		if(tree.left != null){
