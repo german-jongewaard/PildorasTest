@@ -47,8 +47,7 @@ public class Client {
 		radioStatns = getRadioStations();
 		iterator = radioStatns.iterator(RadioStationTypeEnum.ALL);
 
-		currentSong = null;
-		
+		currentSong = null;		
 		
 		gui.chillBtn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e){
