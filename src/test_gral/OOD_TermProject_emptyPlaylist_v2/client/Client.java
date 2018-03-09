@@ -110,8 +110,7 @@ public class Client {
 					radioStationCurrentlyPlaying = false;
 					currentStation = null;
 					gui.panel4.setVisible(false);
-				}
-				
+				}				
 			}
 		});
 		
@@ -123,9 +122,7 @@ public class Client {
 					currentSong = null;
 				}
 			}
-		});
-		
-
+		});	
 	}
 	
 	private static RadioStationCollectionInterface getRadioStations(){
@@ -242,7 +239,4 @@ public class Client {
 			return 0;
 		}else return 1;
 	}
-	
-	
-	
 }
