@@ -26,9 +26,7 @@ public class RadioStationCollection implements RadioStationCollectionInterface {
 	public RadioStationIterator iterator(RadioStationTypeEnum type) {
 		return new RadioStationIterator(type, this.radioStationsList);
 	}
-	
-	
-	
+			
 	public List<RadioStationSong> getRadioStationsList() {
 		return radioStationsList;
 	}
@@ -36,8 +34,6 @@ public class RadioStationCollection implements RadioStationCollectionInterface {
 	public void setRadioStationsList(List<RadioStationSong> radioStationsList) {
 		this.radioStationsList = radioStationsList;
 	}
-
-
 
 	private class RadioStationIterator implements RadioStationIteratorInterface{
 		
@@ -66,10 +62,8 @@ public class RadioStationCollection implements RadioStationCollectionInterface {
 			RadioStationSong station = radioStations.get(position);
 			position++;
 			return station;
-		}
-		
+		}		
 	}
-
 }
 
 
