@@ -11,6 +11,12 @@ import java.io.File;
  * 			 of "type" field's RadioStationTypeEnum type
  * */
 
+/**
+ *
+ * @author German
+ * 
+ */
+
 
 public class RadioStationSong {
 	
