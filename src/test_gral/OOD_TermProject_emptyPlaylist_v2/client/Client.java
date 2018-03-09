@@ -83,8 +83,7 @@ public class Client {
 			public void actionPerformed(ActionEvent e){
 				stationButtonClicked(RadioStationTypeEnum.ALL);
 			}
-		});
-		
+		});		
 		
 		//ITERATOR action listener (next song button)
 		gui.nextBtn.addActionListener(new ActionListener(){
