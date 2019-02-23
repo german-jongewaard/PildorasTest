@@ -19,8 +19,7 @@ public class Acceso_Fichero {
         
         accediendo.lee();
         
-    }
-    
+    }    
 }
 
 class Leer_Fichero{
@@ -29,8 +28,7 @@ class Leer_Fichero{
                            
         try {
             
-            FileReader entrada = new FileReader("/home/german/Documentos/ejemplo");
-            
+            FileReader entrada = new FileReader("/home/german/Documentos/ejemplo");            
      
             int c = 0;
             
@@ -45,19 +43,12 @@ class Leer_Fichero{
             
             }
             /* aquí cierro la apertura del archivo! */
-            entrada.close();
-            
+            entrada.close();            
             
         } catch (IOException e) {
             
             System.out.println("No se ha encontrado el archivo");
             
-        }
-        
-        
-        
-    } 
-    
-    
-    
+        }               
+    }    
 }

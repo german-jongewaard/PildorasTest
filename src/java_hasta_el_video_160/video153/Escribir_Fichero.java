@@ -17,8 +17,7 @@ public class Escribir_Fichero {
         
         accede_escritura.escribir();
         
-    }
-    
+    }    
 }
 
 
@@ -48,9 +47,5 @@ class Escribiendo{
             System.out.println("No se ha podido generar el archivo");
             
         }
-        
-        
-        
-        
     }
 }
