@@ -8,6 +8,7 @@ import java.util.logging.Logger;
  *
  * @author german
  */
+
 public class Acceso_Fichero {
 
     /**
@@ -19,9 +20,7 @@ public class Acceso_Fichero {
         Leer_Fichero accediendo = new Leer_Fichero();
         
         accediendo.lee();
-        
     }
-    
 }
 
 class Leer_Fichero{
@@ -42,20 +41,13 @@ class Leer_Fichero{
              /* aqui hago un Casting y transformo los numeros de c en letras */
                 char letra = (char)c;
                 
-                System.out.print(letra);
-            
+                System.out.print(letra);            
         }
             
         } catch (IOException e) {
             
             System.out.println("No se ha encontrado el archivo");
             
-        }
-        
-        
-        
-    } 
-    
-    
-    
+        }        
+    }     
 }
