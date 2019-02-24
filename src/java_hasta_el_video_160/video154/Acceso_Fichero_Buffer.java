@@ -35,8 +35,7 @@ class Leer_Fichero{
            /* Aqui almaceno en un Buffer (memoria interna) este fichero de texto
               el BufferedReader tiene que llevar un elemento FileReader que en 
               este caso seria "entrada" */
-           BufferedReader mibuffer = new BufferedReader(entrada);            
-            
+           BufferedReader mibuffer = new BufferedReader(entrada);      
      
             String linea = "";
             
@@ -51,8 +50,7 @@ class Leer_Fichero{
                 if (linea != null)
                 System.out.println(linea);
             
-            }
-            
+            }            
             
         } catch (IOException e) {
             
@@ -70,13 +68,9 @@ class Leer_Fichero{
                 
                 e.printStackTrace();
                 
-            }
-            
-        }
-        
-          
+            }            
+        }       
     } 
-    
     
     FileReader entrada;
 }
