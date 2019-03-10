@@ -1,7 +1,6 @@
- package java_hasta_el_video_200.video184;
+package java_hasta_el_video_200.video184;
 
-import java.util.*;
- 
+import java.util.*; 
 
 /**
  *
@@ -33,3 +32,4 @@ public class ColeccionesVILinkedList {
         }        
     }    
 }
+
