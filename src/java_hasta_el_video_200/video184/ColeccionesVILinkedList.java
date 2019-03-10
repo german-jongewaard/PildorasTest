@@ -10,8 +10,7 @@ import java.util.*;
 public class ColeccionesVILinkedList {
     
     public static void main(String[] args) {
-        // TODO code application logic here
-        
+        // TODO code application logic here        
         LinkedList<String> personas = new LinkedList<String>();
                 
         personas.add("Pepe");
