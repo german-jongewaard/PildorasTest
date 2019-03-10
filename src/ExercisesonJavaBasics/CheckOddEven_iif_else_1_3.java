@@ -30,7 +30,6 @@ public class CheckOddEven_iif_else_1_3 {
 
 
 /*
-
     Try number = 0, 1, 88, 99, -1, -2 and verify your results.
 
     Again, take note of the source-code identation! Make it a good 
