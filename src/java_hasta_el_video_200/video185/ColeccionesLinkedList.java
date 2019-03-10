@@ -1,6 +1,7 @@
 package java_hasta_el_video_200.video185;
 
 import java.util.LinkedList;
+import java.util.ListIterator;
 
 /**
  *
@@ -29,6 +30,10 @@ public class ColeccionesLinkedList {
         
         //System.out.println(paises);        
         //System.out.println(capitales);
+        
+        ListIterator<String> iterA = paises.listIterator();
+        
+        ListIterator<String> iterB = capitales.listIterator();
         
     }
     
