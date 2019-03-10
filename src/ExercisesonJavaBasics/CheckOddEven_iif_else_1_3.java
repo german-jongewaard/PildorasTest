@@ -16,10 +16,16 @@ package ExercisesonJavaBasics;
  */
 public class CheckOddEven_iif_else_1_3 {
     
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+     public static void main(String[] args) {  // Program entry point
+      int number = 49;       // Set the value of "number" here!
+      System.out.println("The number is " + number);
+      if ( number % 2 == 0 ) {
+         System.out.println( "Even Number" );   // even number
+      } else {
+         System.out.println( "Odd Number" );   // odd number
+      }
+      System.out.println( "“bye!”" );
+   }
 }
 
 
