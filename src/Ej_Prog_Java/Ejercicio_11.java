@@ -32,10 +32,26 @@ public class Ejercicio_11 {
         System.out.println("Ingrese un numero");
         n1 = numero.nextInt();
         
-        digitos = Integer.toString(n1).length();
         
-        if(n1>0 && n1<9999){
-            System.out.println("el numero tiene " + digitos + " cifras.");
+        
+        if(n1>=0 && n1<=9999){            
+            if(n1<10){
+                digitos = 1;
+                System.out.println("el numero tiene " + digitos + " cifras.");
+            }else if(n1<100){
+                digitos = 2;
+                System.out.println("el numero tiene " + digitos + " cifras.");
+            }else if(n1<1000){
+                digitos = 3;
+                System.out.println("el numero tiene " + digitos + " cifras.");
+            }else if(n1<10000){
+                digitos = 4;
+                System.out.println("el numero tiene " + digitos + " cifras.");
+            }
+        }else if(n1>9999){
+        System.out.println("el numero tiene mas cifras de lo pedido");
+        }else if(n1<0){
+        System.out.println("el numero es negativo.");
         }
     }
     
